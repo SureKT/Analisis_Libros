@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import csv
+import os
 import re
 import shutil
+import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from functools import wraps
@@ -19,6 +21,11 @@ from pyspark.sql.types import (  # type: ignore[import-not-found]
     StructField,
     StructType,
 )
+
+executable = sys.executable
+os.environ["PYSPARK_PYTHON"] = executable
+os.environ["PYSPARK_DRIVER_PYTHON"] = executable
+print(f"--- Forzando Spark a usar Python en: {executable} ---")
 
 
 LOG_COLUMNS = ["FASE", "STEP", "F_Ini", "F_Fin", "Length", "TIPO"]
@@ -566,18 +573,18 @@ class SandersonAnalyzer:
             raw_dir = self.paths.data_raw
             files = sorted(raw_dir.glob("*.txt"))
 
+            # Si no hay ficheros, devolvemos un RDD vacío. Esto evita que Spark falle
+            # al resolver el patrón de entrada y mantiene el resto del pipeline intacto.
             if not files:
                 return sc.emptyRDD()
 
-            def read_file(path: Path) -> str:
-                try:
-                    return path.read_text(encoding="utf-8")
-                except UnicodeDecodeError:
-                    return path.read_text(encoding="latin-1", errors="ignore")
-
-            # Cada elemento del RDD es el contenido completo de un fichero
-            files_rdd = sc.parallelize([read_file(p) for p in files], len(files) or None)
-            lines_rdd = files_rdd.flatMap(lambda s: s.splitlines())
+            # En entorno normal (Hadoop correctamente configurado) usamos la API estándar
+            # de Spark para leer texto como RDD de líneas, en lugar de paralelizar el
+            # contenido leído desde Python (workaround usado en el entorno anterior).
+            raw_dir_resolved = raw_dir.resolve()
+            # En Windows/Hadoop funciona bien usando ruta local con comodín sobre *.txt.
+            pattern = f"{raw_dir_resolved.as_posix()}/*.txt"
+            lines_rdd = sc.textFile(pattern)
 
             tokens_rdd = (
                 lines_rdd.map(lambda s: s.lower())
