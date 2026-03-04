@@ -1,0 +1,5 @@
+FASE,STEP,F_Ini,F_Fin,Length,TIPO
+Fase 1,RDD Clean Tokens (stopwords+tokenizacion),2026-02-26T19:59:54+01:00,2026-02-26T19:59:54+01:00,0,Auto
+Fase 1,RDD Clean Tokens (stopwords+tokenizacion),2026-02-26T20:10:02+01:00,2026-02-26T20:10:03+01:00,0,Auto
+Fase 1,RDD Clean Tokens (stopwords+tokenizacion),2026-02-26T20:13:17+01:00,2026-02-26T20:13:18+01:00,0,Auto
+Fase 1,RDD Clean Tokens (stopwords+tokenizacion),2026-02-26T20:15:55+01:00,2026-02-26T20:15:58+01:00,202359,Auto
