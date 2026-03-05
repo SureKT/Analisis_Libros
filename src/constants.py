@@ -582,63 +582,75 @@ BOOK_METADATA: dict[str, dict[str, object]] = {
         "Saga": "El Archivo de las Tormentas",
         "Mundo": "Roshar",
         "Orden_Publicacion": 1,
+        "Anio_Publicacion": 2010,
     },
     "Palabras radiantes": {
         "Saga": "El Archivo de las Tormentas",
         "Mundo": "Roshar",
         "Orden_Publicacion": 2,
+        "Anio_Publicacion": 2014,
     },
     "Juramentada": {
         "Saga": "El Archivo de las Tormentas",
         "Mundo": "Roshar",
         "Orden_Publicacion": 3,
+        "Anio_Publicacion": 2017,
     },
     "El Ritmo de la Guerra": {
         "Saga": "El Archivo de las Tormentas",
         "Mundo": "Roshar",
         "Orden_Publicacion": 4,
+        "Anio_Publicacion": 2020,
     },
     # Nacidos de la Bruma Era 1
     "El Imperio Final": {
         "Saga": "Nacidos de la Bruma (Era 1)",
         "Mundo": "Scadrial",
         "Orden_Publicacion": 1,
+        "Anio_Publicacion": 2006,
     },
     "El Pozo de la Ascension": {
         "Saga": "Nacidos de la Bruma (Era 1)",
         "Mundo": "Scadrial",
         "Orden_Publicacion": 2,
+        "Anio_Publicacion": 2007,
     },
     "El Heroe de las Eras": {
         "Saga": "Nacidos de la Bruma (Era 1)",
         "Mundo": "Scadrial",
         "Orden_Publicacion": 3,
+        "Anio_Publicacion": 2008,
     },
     # Nacidos de la Bruma Era 2
     "Aleacion de Ley": {
         "Saga": "Nacidos de la Bruma (Era 2)",
         "Mundo": "Scadrial",
         "Orden_Publicacion": 1,
+        "Anio_Publicacion": 2011,
     },
     "Sombras de identidad": {
         "Saga": "Nacidos de la Bruma (Era 2)",
         "Mundo": "Scadrial",
         "Orden_Publicacion": 2,
+        "Anio_Publicacion": 2015,
     },
     "Brazales de duelo": {
         "Saga": "Nacidos de la Bruma (Era 2)",
         "Mundo": "Scadrial",
         "Orden_Publicacion": 3,
+        "Anio_Publicacion": 2016,
     },
     "El metal perdido": {
         "Saga": "Nacidos de la Bruma (Era 2)",
         "Mundo": "Scadrial",
         "Orden_Publicacion": 4,
+        "Anio_Publicacion": 2022,
     },
     # Otros Cosmere (ejemplo)
     "El aliento de los dioses": {
         "Saga": "El aliento de los dioses",
         "Mundo": "Nalthis",
         "Orden_Publicacion": 1,
+        "Anio_Publicacion": 2009,
     },
 }

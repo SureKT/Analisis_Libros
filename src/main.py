@@ -562,6 +562,7 @@ class SandersonAnalyzer:
         saga_udf = F.udf(lambda b: _book_meta(b, "Saga"), StringType())
         mundo_udf = F.udf(lambda b: _book_meta(b, "Mundo"), StringType())
         orden_udf = F.udf(lambda b: _book_meta(b, "Orden_Publicacion"), LongType())
+        anio_udf = F.udf(lambda b: _book_meta(b, "Anio_Publicacion"), LongType())
 
         # Columnas claras para Power BI
         powerbi_df = (
@@ -590,6 +591,7 @@ class SandersonAnalyzer:
             .withColumn("Saga", saga_udf(F.col("Libro_Origen")))
             .withColumn("Mundo", mundo_udf(F.col("Libro_Origen")))
             .withColumn("Orden_Publicacion", orden_udf(F.col("Libro_Origen")))
+            .withColumn("Anio_Publicacion", anio_udf(F.col("Libro_Origen")))
             .orderBy(F.col("Repeticiones").desc())
         )
 
