@@ -529,6 +529,40 @@ class SandersonAnalyzer:
         in_dir = self.paths.data_interim / "fase2_insights_parquet"
         insights_df = self.spark.read.parquet(str(in_dir.resolve()))
 
+        # Métricas por término (sin incluir la fila TOTAL)
+        per_book_df = insights_df.filter(F.col("Libro") != F.lit("TOTAL"))
+
+        # Número de libros distintos por término
+        libros_stats_df = per_book_df.groupBy("Palabra").agg(
+            F.countDistinct("Libro").alias("Num_Libros_Con_Termino")
+        )
+
+        num_libros_totales = (
+            per_book_df.select("Libro").distinct().count()
+        )
+
+        # Es_Global: aparece al menos en 3 libros (umbral configurable)
+        libros_stats_df = libros_stats_df.withColumn(
+            "Es_Global",
+            (F.col("Num_Libros_Con_Termino") >= F.lit(3)),
+        )
+
+        # Metadatos de libros desde BOOK_METADATA (si existen)
+        # Creamos columnas Saga/Mundo/Orden_Publicacion vía UDF sobre el nombre del libro
+        from constants import BOOK_METADATA  # type: ignore[import-not-found]
+
+        def _book_meta(book: str, key: str) -> Optional[object]:
+            if book is None:
+                return None
+            meta = BOOK_METADATA.get(book)
+            if not isinstance(meta, dict):
+                return None
+            return meta.get(key)
+
+        saga_udf = F.udf(lambda b: _book_meta(b, "Saga"), StringType())
+        mundo_udf = F.udf(lambda b: _book_meta(b, "Mundo"), StringType())
+        orden_udf = F.udf(lambda b: _book_meta(b, "Orden_Publicacion"), LongType())
+
         # Columnas claras para Power BI
         powerbi_df = (
             insights_df.select(
@@ -536,6 +570,26 @@ class SandersonAnalyzer:
                 F.col("Frecuencia").cast("long").alias("Repeticiones"),
                 F.col("Libro").alias("Libro_Origen"),
             )
+            .join(
+                libros_stats_df,
+                on=F.col("Termino") == F.col("Palabra"),
+                how="left",
+            )
+            .withColumn(
+                "TFIDF_like",
+                F.when(
+                    (F.col("Libro_Origen") != F.lit("TOTAL"))
+                    & (F.col("Num_Libros_Con_Termino") > 0),
+                    F.col("Repeticiones")
+                    * F.log(
+                        F.lit(float(num_libros_totales))
+                        / F.col("Num_Libros_Con_Termino").cast("double")
+                    ),
+                ).otherwise(F.lit(None)),
+            )
+            .withColumn("Saga", saga_udf(F.col("Libro_Origen")))
+            .withColumn("Mundo", mundo_udf(F.col("Libro_Origen")))
+            .withColumn("Orden_Publicacion", orden_udf(F.col("Libro_Origen")))
             .orderBy(F.col("Repeticiones").desc())
         )
 

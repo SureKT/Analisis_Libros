@@ -572,3 +572,73 @@ SANDERSON_TERMS = {
     "Sangre Espectral": "Concepto",
     "Luzdeplata": "Concepto",
 }
+
+
+# Metadata de libros: clave = nombre del fichero .txt sin extensión en data/raw
+# (debe coincidir exactamente con el nombre usado en el CSV como Libro_Origen).
+BOOK_METADATA: dict[str, dict[str, object]] = {
+    # Archivo de las Tormentas
+    "El camino de los reyes": {
+        "Saga": "El Archivo de las Tormentas",
+        "Mundo": "Roshar",
+        "Orden_Publicacion": 1,
+    },
+    "Palabras radiantes": {
+        "Saga": "El Archivo de las Tormentas",
+        "Mundo": "Roshar",
+        "Orden_Publicacion": 2,
+    },
+    "Juramentada": {
+        "Saga": "El Archivo de las Tormentas",
+        "Mundo": "Roshar",
+        "Orden_Publicacion": 3,
+    },
+    "El Ritmo de la Guerra": {
+        "Saga": "El Archivo de las Tormentas",
+        "Mundo": "Roshar",
+        "Orden_Publicacion": 4,
+    },
+    # Nacidos de la Bruma Era 1
+    "El Imperio Final": {
+        "Saga": "Nacidos de la Bruma (Era 1)",
+        "Mundo": "Scadrial",
+        "Orden_Publicacion": 1,
+    },
+    "El Pozo de la Ascension": {
+        "Saga": "Nacidos de la Bruma (Era 1)",
+        "Mundo": "Scadrial",
+        "Orden_Publicacion": 2,
+    },
+    "El Heroe de las Eras": {
+        "Saga": "Nacidos de la Bruma (Era 1)",
+        "Mundo": "Scadrial",
+        "Orden_Publicacion": 3,
+    },
+    # Nacidos de la Bruma Era 2
+    "Aleacion de Ley": {
+        "Saga": "Nacidos de la Bruma (Era 2)",
+        "Mundo": "Scadrial",
+        "Orden_Publicacion": 1,
+    },
+    "Sombras de identidad": {
+        "Saga": "Nacidos de la Bruma (Era 2)",
+        "Mundo": "Scadrial",
+        "Orden_Publicacion": 2,
+    },
+    "Brazales de duelo": {
+        "Saga": "Nacidos de la Bruma (Era 2)",
+        "Mundo": "Scadrial",
+        "Orden_Publicacion": 3,
+    },
+    "El metal perdido": {
+        "Saga": "Nacidos de la Bruma (Era 2)",
+        "Mundo": "Scadrial",
+        "Orden_Publicacion": 4,
+    },
+    # Otros Cosmere (ejemplo)
+    "El aliento de los dioses": {
+        "Saga": "El aliento de los dioses",
+        "Mundo": "Nalthis",
+        "Orden_Publicacion": 1,
+    },
+}
