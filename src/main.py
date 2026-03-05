@@ -16,380 +16,91 @@ from pyspark import StorageLevel  # type: ignore[import-not-found]
 from pyspark.sql import SparkSession  # type: ignore[import-not-found]
 from pyspark.sql import functions as F  # type: ignore[import-not-found]
 from pyspark.sql.types import (  # type: ignore[import-not-found]
+    BooleanType,
     LongType,
     StringType,
     StructField,
     StructType,
 )
 
+from constants import *
+
 executable = sys.executable
 os.environ["PYSPARK_PYTHON"] = executable
 os.environ["PYSPARK_DRIVER_PYTHON"] = executable
 print(f"--- Forzando Spark a usar Python en: {executable} ---")
 
-
-LOG_COLUMNS = ["FASE", "STEP", "F_Ini", "F_Fin", "Length", "TIPO"]
-
-STOP_WORDS_ES = {
-    "a",
-    "al",
-    "algo",
-    "algunos",
-    "ante",
-    "antes",
-    "aquel",
-    "aquella",
-    "aquellas",
-    "aquello",
-    "aquellos",
-    "aqui",
-    "as",
-    "asi",
-    "aun",
-    "aunque",
-    "bajo",
-    "bien",
-    "cada",
-    "casi",
-    "como",
-    "con",
-    "contra",
-    "cual",
-    "cuales",
-    "cuando",
-    "de",
-    "del",
-    "desde",
-    "donde",
-    "dos",
-    "el",
-    "ella",
-    "ellas",
-    "ello",
-    "ellos",
-    "en",
-    "entre",
-    "era",
-    "erais",
-    "eran",
-    "eras",
-    "eres",
-    "es",
-    "esa",
-    "esas",
-    "ese",
-    "eso",
-    "esos",
-    "esta",
-    "estaba",
-    "estabais",
-    "estaban",
-    "estabas",
-    "estad",
-    "estada",
-    "estadas",
-    "estado",
-    "estados",
-    "estais",
-    "estamos",
-    "estando",
-    "estar",
-    "estaremos",
-    "estará",
-    "estarán",
-    "estarás",
-    "estaré",
-    "estaréis",
-    "estaría",
-    "estaríais",
-    "estaríamos",
-    "estarían",
-    "estarías",
-    "estas",
-    "este",
-    "estemos",
-    "esto",
-    "estos",
-    "estoy",
-    "estuve",
-    "estuviera",
-    "estuvierais",
-    "estuvieran",
-    "estuvieras",
-    "estuvieron",
-    "estuviese",
-    "estuvieseis",
-    "estuviesen",
-    "estuvieses",
-    "estuvimos",
-    "estuviste",
-    "estuvisteis",
-    "estuvo",
-    "está",
-    "estábamos",
-    "estáis",
-    "están",
-    "estás",
-    "esté",
-    "estéis",
-    "estén",
-    "estés",
-    "fue",
-    "fuera",
-    "fuerais",
-    "fueran",
-    "fueras",
-    "fueron",
-    "fuese",
-    "fueseis",
-    "fuesen",
-    "fueses",
-    "fui",
-    "fuimos",
-    "fuiste",
-    "fuisteis",
-    "ha",
-    "habia",
-    "habéis",
-    "haber",
-    "había",
-    "habíais",
-    "habíamos",
-    "habían",
-    "habías",
-    "han",
-    "has",
-    "hasta",
-    "hay",
-    "he",
-    "hemos",
-    "hube",
-    "hubiera",
-    "hubierais",
-    "hubieran",
-    "hubieras",
-    "hubieron",
-    "hubiese",
-    "hubieseis",
-    "hubiesen",
-    "hubieses",
-    "hubimos",
-    "hubiste",
-    "hubisteis",
-    "hubo",
-    "la",
-    "las",
-    "le",
-    "les",
-    "lo",
-    "los",
-    "mas",
-    "me",
-    "mi",
-    "mis",
-    "mucho",
-    "muchos",
-    "muy",
-    "más",
-    "mí",
-    "mía",
-    "mías",
-    "mío",
-    "míos",
-    "nada",
-    "ni",
-    "no",
-    "nos",
-    "nosotras",
-    "nosotros",
-    "nuestra",
-    "nuestras",
-    "nuestro",
-    "nuestros",
-    "o",
-    "os",
-    "otra",
-    "otras",
-    "otro",
-    "otros",
-    "para",
-    "pero",
-    "poco",
-    "por",
-    "porque",
-    "que",
-    "quien",
-    "quienes",
-    "qué",
-    "se",
-    "sea",
-    "seais",
-    "sean",
-    "seas",
-    "ser",
-    "será",
-    "serán",
-    "serás",
-    "seré",
-    "seréis",
-    "sería",
-    "seríais",
-    "seríamos",
-    "serían",
-    "serías",
-    "si",
-    "sido",
-    "siendo",
-    "sin",
-    "sobre",
-    "sois",
-    "somos",
-    "son",
-    "soy",
-    "su",
-    "sus",
-    "suya",
-    "suyas",
-    "suyo",
-    "suyos",
-    "sí",
-    "tambien",
-    "también",
-    "tan",
-    "tanto",
-    "te",
-    "tendremos",
-    "tendrá",
-    "tendrán",
-    "tendrás",
-    "tendré",
-    "tendréis",
-    "tendría",
-    "tendríais",
-    "tendríamos",
-    "tendrían",
-    "tendrías",
-    "tened",
-    "tenemos",
-    "tenga",
-    "tengais",
-    "tengan",
-    "tengas",
-    "tengo",
-    "tenida",
-    "tenidas",
-    "tenido",
-    "tenidos",
-    "teniendo",
-    "tenéis",
-    "tenía",
-    "teníais",
-    "teníamos",
-    "tenían",
-    "tenías",
-    "ti",
-    "tiene",
-    "tienen",
-    "tienes",
-    "todo",
-    "todos",
-    "tu",
-    "tus",
-    "tuve",
-    "tuviera",
-    "tuvierais",
-    "tuvieran",
-    "tuvieras",
-    "tuvieron",
-    "tuviese",
-    "tuvieseis",
-    "tuviesen",
-    "tuvieses",
-    "tuvimos",
-    "tuviste",
-    "tuvisteis",
-    "tuvo",
-    "tuya",
-    "tuyas",
-    "tuyo",
-    "tuyos",
-    "tú",
-    "un",
-    "una",
-    "uno",
-    "unos",
-    "vosotras",
-    "vosotros",
-    "vuestra",
-    "vuestras",
-    "vuestro",
-    "vuestros",
-    "y",
-    "ya",
-}
-
-STOP_WORDS_EN = {
-    "a",
-    "an",
-    "and",
-    "are",
-    "as",
-    "at",
-    "be",
-    "but",
-    "by",
-    "for",
-    "from",
-    "has",
-    "have",
-    "he",
-    "her",
-    "his",
-    "i",
-    "in",
-    "is",
-    "it",
-    "its",
-    "me",
-    "my",
-    "not",
-    "of",
-    "on",
-    "or",
-    "our",
-    "she",
-    "so",
-    "that",
-    "the",
-    "their",
-    "them",
-    "there",
-    "they",
-    "this",
-    "to",
-    "was",
-    "we",
-    "were",
-    "what",
-    "when",
-    "where",
-    "who",
-    "will",
-    "with",
-    "you",
-    "your",
-}
-
 _NON_WORD_RE = re.compile(r"[^\wáéíóúüñ]+", flags=re.IGNORECASE)
 
-SANDERSON_TERMS = {
-    "vin": "Personaje",
-    "kelsier": "Personaje",
-    "kaladin": "Personaje",
-    "dalinar": "Personaje",
-    "alomancia": "Concepto",
-    "potenciación": "Concepto",
-}
+# Normalización de términos de "universo Sanderson" para que sea coherente con la
+# tokenización de la Fase 1: limpieza por regex + split en tokens, y filtrado
+# de stopwords.
+#
+# La Fase 2 opera con:
+# - **unigramas**: tokens individuales
+# - **bigrams/ngrams**: secuencias de tokens (separadas por espacios) derivadas del
+#   texto ya limpiado (sin stopwords).
+#
+# Además, para reducir falsos positivos, asumimos:
+# - **Personajes**: solo cuentan si aparecen con mayúscula inicial en el texto.
+STOP_WORDS_ALL = STOP_WORDS_ES | STOP_WORDS_EN
+
+
+def _normalize_to_tokens(text: str) -> list[str]:
+    return [t for t in _NON_WORD_RE.sub(" ", text.lower()).split() if t]
+
+
+def _build_sanderson_term_rules() -> tuple[
+    dict[str, tuple[str, str, bool]],
+    dict[int, dict[str, tuple[str, str, bool]]],
+]:
+    """
+    Devuelve:
+    - reglas unigram: token_variante -> (termino_canonico, categoria, requiere_mayuscula_inicial_en_texto)
+    - reglas ngram: n -> { "tok1 tok2 ...": (termino_canonico, categoria, requiere_mayuscula_inicial_en_texto) }
+    """
+    unigram_rules: dict[str, tuple[str, str, bool]] = {}
+    ngram_rules: dict[int, dict[str, tuple[str, str, bool]]] = {}
+
+    for raw_term, category in SANDERSON_TERMS.items():
+        canonical_term = str(raw_term)
+        cat = str(category)
+        requires_cap = cat.lower() == "personaje"
+
+        tokens = [t for t in _normalize_to_tokens(raw_term) if t not in STOP_WORDS_ALL]
+        if not tokens:
+            continue
+
+        if len(tokens) == 1:
+            token = tokens[0]
+
+            # Singular/plural muy básico: añadimos variantes simples para que
+            # "esfera" también recoja "esferas", etc.
+            variants = {token}
+            if token.endswith("s"):
+                root = token.rstrip("s")
+                if root:
+                    variants.add(root)
+            else:
+                if token.endswith(("a", "e", "i", "o", "u")):
+                    variants.add(token + "s")
+                else:
+                    variants.add(token + "es")
+
+            for v in variants:
+                unigram_rules.setdefault(v, (canonical_term, cat, requires_cap))
+            continue
+
+        n = len(tokens)
+        phrase = " ".join(tokens)
+        bucket = ngram_rules.setdefault(n, {})
+        bucket.setdefault(phrase, (canonical_term, cat, requires_cap))
+
+    return unigram_rules, ngram_rules
+
+
+SANDERSON_UNIGRAM_RULES, SANDERSON_NGRAM_RULES = _build_sanderson_term_rules()
+SANDERSON_NGRAM_NS = tuple(sorted(SANDERSON_NGRAM_RULES.keys()))
 
 
 def now_ts() -> str:
@@ -578,23 +289,49 @@ class SandersonAnalyzer:
             if not files:
                 return sc.emptyRDD()
 
-            # En entorno normal (Hadoop correctamente configurado) usamos la API estándar
-            # de Spark para leer texto como RDD de líneas, en lugar de paralelizar el
-            # contenido leído desde Python (workaround usado en el entorno anterior).
             raw_dir_resolved = raw_dir.resolve()
-            # En Windows/Hadoop funciona bien usando ruta local con comodín sobre *.txt.
             pattern = f"{raw_dir_resolved.as_posix()}/*.txt"
-            lines_rdd = sc.textFile(pattern)
-
-            tokens_rdd = (
-                lines_rdd.map(lambda s: s.lower())
-                .map(lambda s: _NON_WORD_RE.sub(" ", s))
-                .flatMap(lambda s: s.split())
-                .map(lambda w: w.strip())
-                .filter(lambda w: bool(w))
+            # Leemos (ruta_fichero, contenido) y derivamos el nombre del libro a partir
+            # del nombre del fichero .txt (sin extensión).
+            lines_rdd = sc.wholeTextFiles(pattern).flatMap(
+                lambda kv: (
+                    (os.path.splitext(os.path.basename(kv[0]))[0], line)
+                    for line in kv[1].splitlines()
+                )
             )
 
-            clean_rdd = tokens_rdd.filter(lambda w: w not in stop_words).persist(StorageLevel.MEMORY_AND_DISK)
+            # Importante:
+            # - Guardamos el token normalizado en minúsculas (para el WordCount)
+            # - Además guardamos el token con casing original + flag de mayúscula inicial
+            #   para poder distinguir usos de "Celeste" (nombre) vs "celeste" (adjetivo).
+            #
+            # También añadimos (line_id, pos) para poder generar bigramas/ngramas en Fase 2.
+            # line_id es un índice global de línea dentro del corpus.
+            lines_with_id_rdd = lines_rdd.zipWithIndex()  # ((book, line), line_id)
+
+            def tokenize_row(
+                row: tuple[tuple[str, str], int]
+            ) -> list[tuple[str, int, int, str, str, bool]]:
+                (book, line), line_id = row
+                cleaned = _NON_WORD_RE.sub(" ", line)
+                raw_tokens = [t for t in cleaned.split() if t]
+
+                out: list[tuple[str, int, int, str, str, bool]] = []
+                pos = 0
+                for raw in raw_tokens:
+                    token = raw.lower().strip()
+                    if not token:
+                        continue
+                    if token in stop_words:
+                        continue
+                    is_capitalized = raw[:1].isupper()
+                    out.append((book, int(line_id), pos, token, raw, bool(is_capitalized)))
+                    pos += 1
+                return out
+
+            clean_rdd = (
+                lines_with_id_rdd.flatMap(tokenize_row).persist(StorageLevel.MEMORY_AND_DISK)
+            )
             return clean_rdd
 
         clean_tokens_rdd = self.run_logged_step(
@@ -607,11 +344,23 @@ class SandersonAnalyzer:
         out_dir = self.paths.data_interim / "fase1_clean_tokens_parquet"
 
         if clean_tokens_rdd.isEmpty():
-            empty_schema = StructType([StructField("token", StringType(), True)])
+            empty_schema = StructType(
+                [
+                    StructField("book", StringType(), True),
+                    StructField("line_id", LongType(), True),
+                    StructField("pos", LongType(), True),
+                    StructField("token", StringType(), True),
+                    StructField("raw_token", StringType(), True),
+                    StructField("is_capitalized", BooleanType(), True),
+                ]
+            )
             empty_rdd = self.spark.sparkContext.emptyRDD()
             df = self.spark.createDataFrame(empty_rdd, empty_schema)
         else:
-            df = self.spark.createDataFrame(clean_tokens_rdd.map(lambda w: (w,)), ["token"])
+            df = self.spark.createDataFrame(
+                clean_tokens_rdd,
+                ["book", "line_id", "pos", "token", "raw_token", "is_capitalized"],
+            )
 
         df.write.mode("overwrite").parquet(str(out_dir.resolve()))
 
@@ -619,15 +368,20 @@ class SandersonAnalyzer:
         """Fase 2 (Limpieza): normalizar/filtrar datos y persistir a /data/interim (Parquet)."""
         in_dir = self.paths.data_interim / "fase1_clean_tokens_parquet"
         tokens_df = self.spark.read.parquet(str(in_dir.resolve()))
+        sc = self.spark.sparkContext
 
         def build_wordcount_rdd():
-            tokens_rdd = tokens_df.select("token").rdd.map(lambda r: r[0])
-            wc_rdd = (
-                tokens_rdd.map(lambda w: (w, 1))
-                .reduceByKey(add)
+            tokens_rdd = (
+                tokens_df.select("book", "token", "is_capitalized")
+                .rdd.map(lambda r: (r[0], r[1], bool(r[2])))
+            )
+            # ((book, token), (count_total, count_capitalized))
+            wc2_rdd = (
+                tokens_rdd.map(lambda t: ((t[0], t[1]), (1, 1 if t[2] else 0)))
+                .reduceByKey(lambda a, b: (a[0] + b[0], a[1] + b[1]))
                 .persist(StorageLevel.MEMORY_AND_DISK)
             )
-            return wc_rdd
+            return wc2_rdd
 
         wc_rdd = self.run_logged_step(
             fase="Fase 2",
@@ -636,12 +390,109 @@ class SandersonAnalyzer:
             fn=build_wordcount_rdd,
         )
 
-        sanderson_terms = set(SANDERSON_TERMS.keys())
+        unigram_rules_bc = sc.broadcast(SANDERSON_UNIGRAM_RULES)
+        ngram_rules_bc = sc.broadcast(SANDERSON_NGRAM_RULES)
+        ngram_ns = SANDERSON_NGRAM_NS
 
         def build_insights_rdd():
+            # --- Unigramas ---
+            # wc_rdd: ((book, token), (count_total, count_capitalized))
+            def unigram_by_book_mapper(
+                kv: tuple[tuple[str, str], tuple[int, int]]
+            ) -> Optional[tuple[str, int, str, str]]:
+                (book, token), (tot, caps) = kv
+                rules = unigram_rules_bc.value
+                if token not in rules:
+                    return None
+                canonical, cat, requires_cap = rules[token]
+                freq = caps if requires_cap else tot
+                if freq <= 0:
+                    return None
+                return (canonical, int(freq), cat, book)
+
+            unigram_insights = (
+                wc_rdd.map(unigram_by_book_mapper)
+                .filter(lambda x: x is not None)  # type: ignore[func-returns-value]
+            )
+
+            # Total por término canónico (acumulando libros)
+            unigram_total = (
+                unigram_insights.map(
+                    lambda t: ((t[0], t[2]), t[1])  # (canonical, categoria) -> freq
+                )
+                .reduceByKey(add)
+                .map(lambda kv: (kv[0][0], int(kv[1]), kv[0][1], "TOTAL"))
+            )
+
+            # --- Bigrams / Ngrams ---
+            # Reconstruimos tokens por línea usando (book, line_id, pos)
+            by_line_rdd = tokens_df.select(
+                "book", "line_id", "pos", "token", "is_capitalized"
+            ).rdd.map(
+                lambda r: ((r[0], int(r[1])), (int(r[2]), r[3], bool(r[4])))
+            )
+
+            def emit_ngrams(items: list[tuple[int, str, bool]]) -> list[tuple[str, int]]:
+                # items: [(pos, token, is_capitalized), ...] de una línea de un libro
+                items_sorted = sorted(items, key=lambda x: x[0])
+                toks = [it[1] for it in items_sorted]
+                caps = [it[2] for it in items_sorted]
+                out: list[tuple[str, int]] = []
+
+                rules_all = ngram_rules_bc.value
+                for n in ngram_ns:
+                    rules_n = rules_all.get(n)
+                    if not rules_n:
+                        continue
+                    if len(toks) < n:
+                        continue
+                    for i in range(0, len(toks) - n + 1):
+                        phrase = " ".join(toks[i : i + n])
+                        rule = rules_n.get(phrase)  # (canonical, cat, requires_cap)
+                        if rule is None:
+                            continue
+                        _canonical, _cat, requires_cap = rule
+                        if requires_cap and not all(caps[i : i + n]):
+                            continue
+                        out.append((phrase, 1))
+                return out
+
+            # Por libro
+            ngram_counts_by_book = (
+                by_line_rdd.groupByKey()
+                .flatMap(
+                    lambda kv: (
+                        ((kv[0][0], phrase), c)
+                        for phrase, c in emit_ngrams(list(kv[1]))
+                    )
+                )
+                .reduceByKey(add)
+            )
+
+            def ngram_to_insight_by_book(
+                kv: tuple[tuple[str, str], int]
+            ) -> tuple[str, int, str, str]:
+                (book, phrase), count = kv
+                n = phrase.count(" ") + 1
+                rules_n = ngram_rules_bc.value.get(n, {})
+                canonical, cat, _req = rules_n.get(phrase, (phrase, "Universo", False))
+                return (canonical, int(count), cat, book)
+
+            ngram_insights_by_book = ngram_counts_by_book.map(ngram_to_insight_by_book)
+
+            # Totales ngram por término canónico
+            ngram_insights_total = (
+                ngram_insights_by_book.map(
+                    lambda t: ((t[0], t[2]), t[1])  # (canonical, categoria) -> freq
+                )
+                .reduceByKey(add)
+                .map(lambda kv: (kv[0][0], int(kv[1]), kv[0][1], "TOTAL"))
+            )
+
             insights_rdd = (
-                wc_rdd.filter(lambda kv: kv[0] in sanderson_terms)
-                .map(lambda kv: (kv[0], int(kv[1]), SANDERSON_TERMS.get(kv[0], "Universo")))
+                unigram_insights.union(unigram_total)
+                .union(ngram_insights_by_book)
+                .union(ngram_insights_total)
                 .persist(StorageLevel.MEMORY_AND_DISK)
             )
             return insights_rdd
@@ -659,12 +510,15 @@ class SandersonAnalyzer:
                     StructField("Palabra", StringType(), True),
                     StructField("Frecuencia", LongType(), True),
                     StructField("Categoría", StringType(), True),
+                    StructField("Libro", StringType(), True),
                 ]
             )
             empty_rdd = self.spark.sparkContext.emptyRDD()
             insights_df = self.spark.createDataFrame(empty_rdd, empty_schema)
         else:
-            insights_df = self.spark.createDataFrame(insights_rdd, ["Palabra", "Frecuencia", "Categoría"])
+            insights_df = self.spark.createDataFrame(
+                insights_rdd, ["Palabra", "Frecuencia", "Categoría", "Libro"]
+            )
         self.fase2_insights_df = insights_df  # type: ignore[attr-defined]
 
         out_dir = self.paths.data_interim / "fase2_insights_parquet"
@@ -680,7 +534,7 @@ class SandersonAnalyzer:
             insights_df.select(
                 F.col("Palabra").alias("Termino"),
                 F.col("Frecuencia").cast("long").alias("Repeticiones"),
-                F.lit("Desconocido").alias("Libro_Origen"),
+                F.col("Libro").alias("Libro_Origen"),
             )
             .orderBy(F.col("Repeticiones").desc())
         )
