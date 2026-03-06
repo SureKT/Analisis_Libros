@@ -1,724 +1,739 @@
-Termino,Repeticiones,Libro_Origen,Palabra,Num_Libros_Con_Termino,Es_Global,TFIDF_like,Saga,Mundo,Orden_Publicacion
-Kaladin,9025,TOTAL,Kaladin,4,true,,,,
-Dalinar,7351,TOTAL,Dalinar,5,true,,,,
-Vin,6047,TOTAL,Vin,6,true,,,,
-Shallan,5554,TOTAL,Shallan,4,true,,,,
-Adolin,4350,TOTAL,Adolin,4,true,,,,
-Elend,4202,TOTAL,Elend,6,true,,,,
-Wax,3838,TOTAL,Wax,4,true,,,,
-Dalinar,3021,Juramentada,Dalinar,5,true,3110.4802593042787,El Archivo de las Tormentas,Roshar,3
-Wayne,2956,TOTAL,Wayne,4,true,,,,
-Kelsier,2804,TOTAL,Kelsier,7,true,,,,
-Navani,2775,TOTAL,Navani,4,true,,,,
-Marasi,2618,TOTAL,Marasi,4,true,,,,
-Sazed,2534,TOTAL,Sazed,5,true,,,,
-Kaladin,2525,El camino de los reyes,Kaladin,4,true,3163.226495450804,El Archivo de las Tormentas,Roshar,1
-Kaladin,2392,El Ritmo de la Guerra,Kaladin,4,true,2996.6090206409203,El Archivo de las Tormentas,Roshar,4
-Kaladin,2292,Palabras radiantes,Kaladin,4,true,2871.3327237913836,El Archivo de las Tormentas,Roshar,2
-Vin,2291,El Pozo de la Ascension,Vin,6,true,1941.1593981470837,Nacidos de la Bruma (Era 1),Scadrial,2
-Shallan,2286,Palabras radiantes,Shallan,4,true,2863.8161459804114,El Archivo de las Tormentas,Roshar,2
-Vin,2258,El Imperio Final,Vin,6,true,1913.1985687543058,Nacidos de la Bruma (Era 1),Scadrial,1
-Kelsier,2170,El Imperio Final,Kelsier,7,true,1504.1293818150812,Nacidos de la Bruma (Era 1),Scadrial,1
-Elend,2166,El Pozo de la Ascension,Elend,6,true,1835.247165598683,Nacidos de la Bruma (Era 1),Scadrial,2
-Jasnah,2074,TOTAL,Jasnah,4,true,,,,
-Kaladin,1816,Juramentada,Kaladin,4,true,2275.0175507875883,El Archivo de las Tormentas,Roshar,3
-Dalinar,1733,El camino de los reyes,Dalinar,5,true,1784.330449974947,El Archivo de las Tormentas,Roshar,1
-Navani,1613,El Ritmo de la Guerra,Navani,4,true,2020.7066681830286,El Archivo de las Tormentas,Roshar,4
-Venli,1601,TOTAL,Venli,3,true,,,,
-Elend,1543,El Heroe de las Eras,Elend,6,true,1307.3805985774552,Nacidos de la Bruma (Era 1),Scadrial,3
-Shallan,1513,Juramentada,Shallan,4,true,1895.4303713334918,El Archivo de las Tormentas,Roshar,3
-Vin,1484,El Heroe de las Eras,Vin,6,true,1257.3900248146103,Nacidos de la Bruma (Era 1),Scadrial,3
-Dalinar,1390,Palabras radiantes,Dalinar,5,true,1431.1709898818099,El Archivo de las Tormentas,Roshar,2
-Luz tormentosa,1360,TOTAL,Luz tormentosa,5,true,,,,
-Syl,1358,TOTAL,Syl,5,true,,,,
-Wax,1341,El metal perdido,Wax,4,true,1679.9551407522886,Nacidos de la Bruma (Era 2),Scadrial,4
-Sadeas,1322,TOTAL,Sadeas,4,true,,,,
-Adolin,1301,Palabras radiantes,Adolin,4,true,1629.8446220124738,El Archivo de las Tormentas,Roshar,2
-Venli,1292,El Ritmo de la Guerra,Venli,3,true,1990.2549929037166,El Archivo de las Tormentas,Roshar,4
-Dalinar,1206,El Ritmo de la Guerra,Dalinar,5,true,1241.7210171204767,El Archivo de las Tormentas,Roshar,4
-Adolin,1195,El Ritmo de la Guerra,Adolin,4,true,1497.0517473519649,El Archivo de las Tormentas,Roshar,4
-Esfera,1175,TOTAL,Esfera,11,true,,,,
-Wax,1140,Brazales de duelo,Wax,4,true,1428.1497840847196,Nacidos de la Bruma (Era 2),Scadrial,3
-Adolin,1137,Juramentada,Adolin,4,true,1424.3914951792335,El Archivo de las Tormentas,Roshar,3
-Marasi,1133,El metal perdido,Marasi,4,true,1419.380443305252,Nacidos de la Bruma (Era 2),Scadrial,4
-Lift,1132,TOTAL,Lift,4,true,,,,
-Wayne,1101,El metal perdido,Wayne,4,true,1379.2920283134001,Nacidos de la Bruma (Era 2),Scadrial,4
-Fantasma,1092,TOTAL,Fantasma,5,true,,,,
-Sazed,1071,El Pozo de la Ascension,Sazed,5,true,1102.7223958010204,Nacidos de la Bruma (Era 1),Scadrial,2
-Teft,1060,TOTAL,Teft,5,true,,,,
-Wax,1047,Sombras de identidad,Wax,4,true,1311.6428280146504,Nacidos de la Bruma (Era 2),Scadrial,2
-Steris,1020,TOTAL,Steris,4,true,,,,
-Shallan,949,El Ritmo de la Guerra,Shallan,4,true,1188.8720571021042,El Archivo de las Tormentas,Roshar,4
-Szeth,948,TOTAL,Szeth,5,true,,,,
-Sazed,909,El Heroe de las Eras,Sazed,5,true,935.9240502176727,Nacidos de la Bruma (Era 1),Scadrial,3
-Moash,899,TOTAL,Moash,4,true,,,,
-Fantasma,833,El Heroe de las Eras,Fantasma,5,true,857.6729745119047,Nacidos de la Bruma (Era 1),Scadrial,3
-Vivenna,810,TOTAL,Vivenna,3,true,,,,
-Vivenna,806,El aliento de los dioses,Vivenna,3,true,1241.598703003402,El aliento de los dioses,Nalthis,1
-Shallan,806,El camino de los reyes,Shallan,4,true,1009.7269526072666,El Archivo de las Tormentas,Roshar,1
-Renarin,759,TOTAL,Renarin,4,true,,,,
-Lift,755,Danzante del Filo,Lift,4,true,945.8360412140029,,,
-Taravangian,747,TOTAL,Taravangian,4,true,,,,
-Aliento,735,TOTAL,Aliento,13,true,,,,
-Elhokar,733,TOTAL,Elhokar,4,true,,,,
-Sondeluz,720,El aliento de los dioses,Sondeluz,1,false,1900.121277322986,El aliento de los dioses,Nalthis,1
-Sondeluz,720,TOTAL,Sondeluz,1,false,,,,
-Adolin,717,El camino de los reyes,Adolin,4,true,898.2310484111789,El Archivo de las Tormentas,Roshar,1
-Jasnah,709,El camino de los reyes,Jasnah,4,true,888.2089446632159,El Archivo de las Tormentas,Roshar,1
-Sadeas,703,El camino de los reyes,Sadeas,4,true,880.6923668522437,El Archivo de las Tormentas,Roshar,1
-Amaram,700,TOTAL,Amaram,4,true,,,,
-Eshonai,697,TOTAL,Eshonai,4,true,,,,
-Wayne,690,Aleacion de Ley,Wayne,4,true,864.4064482618039,Nacidos de la Bruma (Era 2),Scadrial,1
-Marasi,676,Brazales de duelo,Marasi,4,true,846.8677667028688,Nacidos de la Bruma (Era 2),Scadrial,3
-Marsh,667,TOTAL,Marsh,5,true,,,,
-Wayne,654,Brazales de duelo,Wayne,4,true,819.3069813959708,Nacidos de la Bruma (Era 2),Scadrial,3
-Straff,624,TOTAL,Straff,3,true,,,,
-Navani,615,Juramentada,Navani,4,true,770.4492256246514,El Archivo de las Tormentas,Roshar,3
-Ruina,609,TOTAL,Ruina,8,true,,,,
-Odium,605,TOTAL,Odium,5,true,,,,
-Vasher,586,TOTAL,Vasher,3,true,,,,
-Vasher,577,El aliento de los dioses,Vasher,3,true,888.836788626505,El aliento de los dioses,Nalthis,1
-Straff,570,El Pozo de la Ascension,Straff,3,true,878.053673339875,Nacidos de la Bruma (Era 1),Scadrial,2
-Dockson,564,TOTAL,Dockson,3,true,,,,
-Gavilar,550,TOTAL,Gavilar,4,true,,,,
-Alomancia,533,TOTAL,Alomancia,9,true,,,,
-Sazed,529,El Imperio Final,Sazed,5,true,544.6686716888327,Nacidos de la Bruma (Era 1),Scadrial,1
-Zane,528,TOTAL,Zane,2,false,,,,
-Lirin,523,TOTAL,Lirin,4,true,,,,
-Wayne,511,Sombras de identidad,Wayne,4,true,640.161876901133,Nacidos de la Bruma (Era 2),Scadrial,2
-Ruina,509,El Heroe de las Eras,Ruina,8,true,284.84443605913015,Nacidos de la Bruma (Era 1),Scadrial,3
-Syl,500,El Ritmo de la Guerra,Syl,5,true,514.809708590579,El Archivo de las Tormentas,Roshar,4
-Jasnah,492,Palabras radiantes,Jasnah,4,true,616.359380499721,El Archivo de las Tormentas,Roshar,2
-Elend,486,El Imperio Final,Elend,6,true,411.786760148181,Nacidos de la Bruma (Era 1),Scadrial,1
-Zane,485,El Pozo de la Ascension,Zane,2,false,943.7664222918269,Nacidos de la Bruma (Era 1),Scadrial,2
-TenSoon,483,TOTAL,TenSoon,6,true,,,,
-MeLaan,483,TOTAL,MeLaan,4,true,,,,
-Luz tormentosa,480,El Ritmo de la Guerra,Luz tormentosa,5,true,494.2173202469559,El Archivo de las Tormentas,Roshar,4
-Marasi,475,Sombras de identidad,Marasi,4,true,595.0624100352999,Nacidos de la Bruma (Era 2),Scadrial,2
-Armonía,475,TOTAL,Armonía,5,true,,,,
-Jasnah,465,Juramentada,Jasnah,4,true,582.5347803503462,El Archivo de las Tormentas,Roshar,3
-Rlain,459,TOTAL,Rlain,3,true,,,,
-Steris,425,Brazales de duelo,Steris,4,true,532.4242616105314,Nacidos de la Bruma (Era 2),Scadrial,3
-Jasnah,408,El Ritmo de la Guerra,Jasnah,4,true,511.12729114611017,El Archivo de las Tormentas,Roshar,4
-Teft,404,El camino de los reyes,Teft,5,true,415.9662445411879,El Archivo de las Tormentas,Roshar,1
-Luz tormentosa,404,Juramentada,Luz tormentosa,5,true,415.9662445411879,El Archivo de las Tormentas,Roshar,3
-Aliento,402,El aliento de los dioses,Aliento,13,true,29.791404805796176,El aliento de los dioses,Nalthis,1
-Odium,389,El Ritmo de la Guerra,Odium,5,true,400.5219532834705,El Archivo de las Tormentas,Roshar,4
-Dockson,386,El Imperio Final,Dockson,3,true,594.6117858055995,Nacidos de la Bruma (Era 1),Scadrial,1
-Lopen,385,TOTAL,Lopen,5,true,,,,
-Eshonai,380,El Ritmo de la Guerra,Eshonai,4,true,476.04992802823983,El Archivo de las Tormentas,Roshar,4
-Rlain,375,El Ritmo de la Guerra,Rlain,3,true,577.666890355181,El Archivo de las Tormentas,Roshar,4
-Sigzil,366,TOTAL,Sigzil,4,true,,,,
-Teft,365,El Ritmo de la Guerra,Teft,5,true,375.8110872711227,El Archivo de las Tormentas,Roshar,4
-Gaz,365,TOTAL,Gaz,4,true,,,,
-Steris,361,El metal perdido,Steris,4,true,452.24743162682785,Nacidos de la Bruma (Era 2),Scadrial,4
-TenSoon,352,El Heroe de las Eras,TenSoon,6,true,298.2488468562957,Nacidos de la Bruma (Era 1),Scadrial,3
-Mraize,352,TOTAL,Mraize,3,true,,,,
-Taravangian,347,El Ritmo de la Guerra,Taravangian,4,true,434.7087500678927,El Archivo de las Tormentas,Roshar,4
-Sadeas,345,Palabras radiantes,Sadeas,4,true,432.20322413090196,El Archivo de las Tormentas,Roshar,2
-Syl,341,Juramentada,Syl,5,true,351.1002212587749,El Archivo de las Tormentas,Roshar,3
-Marasi,334,Aleacion de Ley,Marasi,4,true,418.4228314774529,Nacidos de la Bruma (Era 2),Scadrial,1
-Moash,332,Palabras radiantes,Moash,4,true,415.91730554046217,El Archivo de las Tormentas,Roshar,2
-Navani,330,Palabras radiantes,Navani,4,true,413.4117796034715,El Archivo de las Tormentas,Roshar,2
-Szeth,329,El camino de los reyes,Szeth,5,true,338.74478825260104,El Archivo de las Tormentas,Roshar,1
-Lirin,320,El Ritmo de la Guerra,Lirin,4,true,400.8841499185178,El Archivo de las Tormentas,Roshar,4
-Wax,310,Aleacion de Ley,Wax,4,true,388.3565202335641,Nacidos de la Bruma (Era 2),Scadrial,1
-Amaram,307,Palabras radiantes,Amaram,4,true,384.598231328078,El Archivo de las Tormentas,Roshar,2
-Honor,300,TOTAL,Honor,6,true,,,,
-Syl,299,Palabras radiantes,Syl,5,true,307.8562057371663,El Archivo de las Tormentas,Roshar,2
-Kelsier,298,El Heroe de las Eras,Kelsier,7,true,206.5578598068637,Nacidos de la Bruma (Era 1),Scadrial,3
-Elhokar,298,Juramentada,Elhokar,4,true,373.3233646116197,El Archivo de las Tormentas,Roshar,3
-Renarin,284,Juramentada,Renarin,4,true,355.7846830526845,El Archivo de las Tormentas,Roshar,3
-Marsh,282,El Heroe de las Eras,Marsh,5,true,290.3526756450866,Nacidos de la Bruma (Era 1),Scadrial,3
-Roshar,280,TOTAL,Roshar,8,true,,,,
-Szeth,276,Juramentada,Szeth,5,true,284.17495914199964,El Archivo de las Tormentas,Roshar,3
-Elhokar,273,El camino de los reyes,Elhokar,4,true,342.00429039923546,El Archivo de las Tormentas,Roshar,1
-Luz tormentosa,266,Palabras radiantes,Luz tormentosa,5,true,273.87876497018806,El Archivo de las Tormentas,Roshar,2
-Kelsier,261,El Pozo de la Ascension,Kelsier,7,true,180.91141412614573,Nacidos de la Bruma (Era 1),Scadrial,2
-Eshonai,258,Palabras radiantes,Eshonai,4,true,323.212845871805,El Archivo de las Tormentas,Roshar,2
-Cikatriz,254,TOTAL,Cikatriz,5,true,,,,
-Taravangian,249,Juramentada,Taravangian,4,true,311.9379791553466,El Archivo de las Tormentas,Roshar,3
-Moash,245,Juramentada,Moash,4,true,306.9269272813652,El Archivo de las Tormentas,Roshar,3
-Gaz,243,El camino de los reyes,Gaz,4,true,304.42140134437443,El Archivo de las Tormentas,Roshar,1
-Fen,242,TOTAL,Fen,3,true,,,,
-Gavilar,237,Juramentada,Gavilar,4,true,296.90482353340224,El Archivo de las Tormentas,Roshar,3
-Sadeas,228,Juramentada,Sadeas,4,true,285.62995681694395,El Archivo de las Tormentas,Roshar,3
-Amaram,227,Juramentada,Amaram,4,true,284.37719384844854,El Archivo de las Tormentas,Roshar,3
-Mraize,224,El Ritmo de la Guerra,Mraize,3,true,345.05968917216137,El Archivo de las Tormentas,Roshar,4
-Marsh,223,El Imperio Final,Marsh,5,true,229.60513003139826,Nacidos de la Bruma (Era 1),Scadrial,1
-Venli,223,Juramentada,Venli,3,true,343.51924413121424,El Archivo de las Tormentas,Roshar,3
-Armonía,220,El metal perdido,Armonía,5,true,226.51627177985478,Nacidos de la Bruma (Era 2),Scadrial,4
-Esfera,219,El camino de los reyes,Esfera,11,true,52.81449044289848,El Archivo de las Tormentas,Roshar,1
-Navani,217,El camino de los reyes,Navani,4,true,271.84956416349485,El Archivo de las Tormentas,Roshar,1
-Syl,216,El camino de los reyes,Syl,5,true,222.39779411113017,El Archivo de las Tormentas,Roshar,1
-MeLaan,214,Brazales de duelo,MeLaan,4,true,268.09127525800875,Nacidos de la Bruma (Era 2),Scadrial,3
-Renarin,209,Palabras radiantes,Renarin,4,true,261.8274604155319,El Archivo de las Tormentas,Roshar,2
-Fen,208,Juramentada,Fen,3,true,320.412568517007,El Archivo de las Tormentas,Roshar,3
-Odium,204,Juramentada,Odium,5,true,210.04236110495626,El Archivo de las Tormentas,Roshar,3
-Szeth,201,El Ritmo de la Guerra,Szeth,5,true,206.95350285341277,El Archivo de las Tormentas,Roshar,4
-Luz tormentosa,196,El camino de los reyes,Luz tormentosa,5,true,201.80540576750698,El Archivo de las Tormentas,Roshar,1
-Dabbid,193,TOTAL,Dabbid,4,true,,,,
-Esfera,192,Palabras radiantes,Esfera,11,true,46.3031149088425,El Archivo de las Tormentas,Roshar,2
-Ranette,192,TOTAL,Ranette,4,true,,,,
-Fantasma,191,El Pozo de la Ascension,Fantasma,5,true,196.6573086816012,Nacidos de la Bruma (Era 1),Scadrial,2
-MeLaan,184,Sombras de identidad,MeLaan,4,true,230.50838620314772,Nacidos de la Bruma (Era 2),Scadrial,2
-Moash,173,El camino de los reyes,Moash,4,true,216.72799354969868,El Archivo de las Tormentas,Roshar,1
-Dockson,171,El Pozo de la Ascension,Dockson,3,true,263.4161020019625,Nacidos de la Bruma (Era 1),Scadrial,2
-Lirin,164,El camino de los reyes,Lirin,4,true,205.45312683324036,El Archivo de las Tormentas,Roshar,1
-Esfera,157,Juramentada,Esfera,11,true,37.862442920251425,El Archivo de las Tormentas,Roshar,3
-Renarin,157,El camino de los reyes,Renarin,4,true,196.6837860537728,El Archivo de las Tormentas,Roshar,1
-Lift,151,El Ritmo de la Guerra,Lift,4,true,189.16720824280057,El Archivo de las Tormentas,Roshar,4
-Moash,149,El Ritmo de la Guerra,Moash,4,true,186.66168230580985,El Archivo de las Tormentas,Roshar,4
-Conservación,149,TOTAL,Conservación,7,true,,,,
-Dabbid,148,El Ritmo de la Guerra,Dabbid,4,true,185.40891933731447,El Archivo de las Tormentas,Roshar,4
-Alomancia,147,El Imperio Final,Alomancia,9,true,64.94941458501877,Nacidos de la Bruma (Era 1),Scadrial,1
-Marsh,147,El Pozo de la Ascension,Marsh,5,true,151.35405432563024,Nacidos de la Bruma (Era 1),Scadrial,2
-Honor,147,El Ritmo de la Guerra,Honor,6,true,124.55278547691894,El Archivo de las Tormentas,Roshar,4
-Teft,144,Juramentada,Teft,5,true,148.26519607408676,El Archivo de las Tormentas,Roshar,3
-Teft,144,Palabras radiantes,Teft,5,true,148.26519607408676,El Archivo de las Tormentas,Roshar,2
-Szeth,141,Palabras radiantes,Szeth,5,true,145.1763378225433,El Archivo de las Tormentas,Roshar,2
-Lift,140,Palabras radiantes,Lift,4,true,175.38681558935153,El Archivo de las Tormentas,Roshar,2
-Amaram,139,El camino de los reyes,Amaram,4,true,174.13405262085615,El Archivo de las Tormentas,Roshar,1
-Armonía,139,Sombras de identidad,Armonía,5,true,143.11709898818097,Nacidos de la Bruma (Era 2),Scadrial,2
-Lunamor,138,Juramentada,Lunamor,1,false,364.18991148690566,El Archivo de las Tormentas,Roshar,3
-Lunamor,138,TOTAL,Lunamor,1,false,,,,
-Sangre Espectral,136,TOTAL,Sangre Espectral,5,true,,,,
-Gavilar,132,El camino de los reyes,Gavilar,4,true,165.36471184138858,El Archivo de las Tormentas,Roshar,1
-Hesina,132,TOTAL,Hesina,3,true,,,,
-Yalb,132,TOTAL,Yalb,4,true,,,,
-Dominio,131,TOTAL,Dominio,5,true,,,,
-Lopen,130,El camino de los reyes,Lopen,5,true,133.85052423355054,El Archivo de las Tormentas,Roshar,1
-Fatren,129,El Heroe de las Eras,Fatren,1,false,340.4383955203683,Nacidos de la Bruma (Era 1),Scadrial,3
-Fatren,129,TOTAL,Fatren,1,false,,,,
-Steris,127,Sombras de identidad,Steris,4,true,159.10089699891174,Nacidos de la Bruma (Era 2),Scadrial,2
-Alomancia,126,El Heroe de las Eras,Alomancia,9,true,55.67092678715894,Nacidos de la Bruma (Era 1),Scadrial,3
-Esfera,125,El Ritmo de la Guerra,Esfera,11,true,30.145257102111007,El Archivo de las Tormentas,Roshar,4
-Elhokar,124,Palabras radiantes,Elhokar,4,true,155.34260809342564,El Archivo de las Tormentas,Roshar,2
-Lopen,124,Palabras radiantes,Lopen,5,true,127.6728077304636,El Archivo de las Tormentas,Roshar,2
-Cikatriz,122,Juramentada,Cikatriz,5,true,125.61356889610128,El Archivo de las Tormentas,Roshar,3
-Gavilar,120,El Ritmo de la Guerra,Gavilar,4,true,150.33155621944417,El Archivo de las Tormentas,Roshar,4
-Hoid,120,TOTAL,Hoid,9,true,,,,
-Sigzil,117,Palabras radiantes,Sigzil,4,true,146.57326731395807,El Archivo de las Tormentas,Roshar,2
-Honor,115,Juramentada,Honor,6,true,97.43925394452842,El Archivo de las Tormentas,Roshar,3
-Conservación,111,El Heroe de las Eras,Conservación,7,true,76.93933704215392,Nacidos de la Bruma (Era 1),Scadrial,3
-Taravangian,111,Palabras radiantes,Taravangian,4,true,139.05668950298585,El Archivo de las Tormentas,Roshar,2
-Renarin,109,El Ritmo de la Guerra,Renarin,4,true,136.55116356599513,El Archivo de las Tormentas,Roshar,4
-Dor,109,TOTAL,Dor,3,true,,,,
-Roshar,108,El Ritmo de la Guerra,Roshar,8,true,60.43850509702565,El Archivo de las Tormentas,Roshar,4
-Lopen,108,Juramentada,Lopen,5,true,111.19889705556508,El Archivo de las Tormentas,Roshar,3
-Steris,107,Aleacion de Ley,Steris,4,true,134.04563762900437,Nacidos de la Bruma (Era 2),Scadrial,1
-Cenn,105,El camino de los reyes,Cenn,1,false,277.10101960960213,El Archivo de las Tormentas,Roshar,1
-Esfera,105,El Ritmo de la Guerra,Esfera,11,true,25.322015965773243,El Archivo de las Tormentas,Roshar,4
-Investidura,105,TOTAL,Investidura,9,true,,,,
-Cenn,105,TOTAL,Cenn,1,false,,,,
-Humano,101,TOTAL,Humano,8,true,,,,
-Roshar,100,Juramentada,Roshar,8,true,55.961578793542266,El Archivo de las Tormentas,Roshar,3
-Dor,100,Esquirla del Amanecer,Dor,3,true,154.0445040947149,,,
-Esfera,99,Palabras radiantes,Esfera,11,true,23.875043624871918,El Archivo de las Tormentas,Roshar,2
-Autonomía,96,El metal perdido,Autonomía,1,false,253.3495036430648,Nacidos de la Bruma (Era 2),Scadrial,4
-Autonomía,96,TOTAL,Autonomía,1,false,,,,
-Cosmere,95,TOTAL,Cosmere,10,true,,,,
-Hesina,94,El Ritmo de la Guerra,Hesina,3,true,144.80183384903202,El Archivo de las Tormentas,Roshar,4
-Sigzil,94,El camino de los reyes,Sigzil,4,true,117.7597190385646,El Archivo de las Tormentas,Roshar,1
-Alomancia,91,El Pozo de la Ascension,Alomancia,9,true,40.20678045739257,Nacidos de la Bruma (Era 1),Scadrial,2
-Aliento,90,El aliento de los dioses,Aliento,13,true,6.669717493834965,El aliento de los dioses,Nalthis,1
-Esfera,88,El camino de los reyes,Esfera,11,true,21.22226099988615,El Archivo de las Tormentas,Roshar,1
-Venli,86,Palabras radiantes,Venli,3,true,132.4782735214548,El Archivo de las Tormentas,Roshar,2
-Lift,86,Juramentada,Lift,4,true,107.73761529060165,El Archivo de las Tormentas,Roshar,3
-Armonía,81,Brazales de duelo,Armonía,5,true,83.3991727916738,Nacidos de la Bruma (Era 2),Scadrial,3
-Sigzil,79,El Ritmo de la Guerra,Sigzil,4,true,98.96827451113407,El Archivo de las Tormentas,Roshar,4
-Yanagawn,78,TOTAL,Yanagawn,3,true,,,,
-Sigzil,76,Juramentada,Sigzil,4,true,95.20998560564797,El Archivo de las Tormentas,Roshar,3
-Mraize,76,Palabras radiantes,Mraize,3,true,117.07382311198333,El Archivo de las Tormentas,Roshar,2
-Cikatriz,76,El camino de los reyes,Cikatriz,5,true,78.25107570576802,El Archivo de las Tormentas,Roshar,1
-Ranette,75,Aleacion de Ley,Ranette,4,true,93.9572226371526,Nacidos de la Bruma (Era 2),Scadrial,1
-TenSoon,72,Sombras de identidad,TenSoon,6,true,61.00544594787866,Nacidos de la Bruma (Era 2),Scadrial,2
-Nale,72,TOTAL,Nale,4,true,,,,
-Humano,71,El Heroe de las Eras,Humano,8,true,39.73272094341501,Nacidos de la Bruma (Era 1),Scadrial,3
-Esfera,69,Juramentada,Esfera,11,true,16.640181920365276,El Archivo de las Tormentas,Roshar,3
-Kelsier,68,El metal perdido,Kelsier,7,true,47.13400827807628,Nacidos de la Bruma (Era 2),Scadrial,4
-Sangre Espectral,67,El Ritmo de la Guerra,Sangre Espectral,5,true,68.98450095113759,El Archivo de las Tormentas,Roshar,4
-Yalb,64,El camino de los reyes,Yalb,4,true,80.17682998370356,El Archivo de las Tormentas,Roshar,1
-Palona,64,TOTAL,Palona,3,true,,,,
-Gaz,62,Palabras radiantes,Gaz,4,true,77.67130404671282,El Archivo de las Tormentas,Roshar,2
-Fantasma,62,El Imperio Final,Fantasma,5,true,63.8364038652318,Nacidos de la Bruma (Era 1),Scadrial,1
-Gavilar,61,Palabras radiantes,Gavilar,4,true,76.41854107821746,El Archivo de las Tormentas,Roshar,2
-Astilla,61,TOTAL,Astilla,10,true,,,,
-Ym,60,Palabras radiantes,Ym,1,false,158.34343977691552,El Archivo de las Tormentas,Roshar,2
-Ym,60,TOTAL,Ym,1,false,,,,
-Ranette,59,El metal perdido,Ranette,4,true,73.91301514122671,Nacidos de la Bruma (Era 2),Scadrial,4
-Eshonai,58,Juramentada,Eshonai,4,true,72.66025217273135,El Archivo de las Tormentas,Roshar,3
-Cultivación,57,TOTAL,Cultivación,5,true,,,,
-Dominio,56,El Pozo de la Ascension,Dominio,5,true,57.65868736214485,Nacidos de la Bruma (Era 1),Scadrial,2
-Yanagawn,55,Juramentada,Yanagawn,3,true,84.7244772520932,El Archivo de las Tormentas,Roshar,3
-Dominio,54,El Heroe de las Eras,Dominio,5,true,55.59944852778254,Nacidos de la Bruma (Era 1),Scadrial,3
-Mraize,52,Juramentada,Mraize,3,true,80.10314212925175,El Archivo de las Tormentas,Roshar,3
-MeLaan,50,El metal perdido,MeLaan,4,true,62.6381484247684,Nacidos de la Bruma (Era 2),Scadrial,4
-Mennis,50,El Imperio Final,Mennis,1,false,131.9528664807629,Nacidos de la Bruma (Era 1),Scadrial,1
-Mennis,50,TOTAL,Mennis,1,false,,,,
-Rlain,49,Juramentada,Rlain,3,true,75.4818070064103,El Archivo de las Tormentas,Roshar,3
-Aliento,49,Juramentada,Aliento,13,true,3.6312906355323697,El Archivo de las Tormentas,Roshar,3
-Nale,49,El Ritmo de la Guerra,Nale,4,true,61.385385456273035,El Archivo de las Tormentas,Roshar,4
-Alomancia,48,Brazales de duelo,Alomancia,9,true,21.207972109393882,Nacidos de la Bruma (Era 2),Scadrial,3
-Perpendicularidad,48,TOTAL,Perpendicularidad,3,true,,,,
-Hauka,47,Danzante del Filo,Hauka,1,false,124.03569449191714,,,
-Adin,47,El Ritmo de la Guerra,Adin,1,false,124.03569449191714,El Archivo de las Tormentas,Roshar,4
-Hauka,47,TOTAL,Hauka,1,false,,,,
-Adin,47,TOTAL,Adin,1,false,,,,
-Sadeas,46,El Ritmo de la Guerra,Sadeas,4,true,57.62709655078693,El Archivo de las Tormentas,Roshar,4
-Lasca,46,TOTAL,Lasca,10,true,,,,
-Esfera,45,Danzante del Filo,Esfera,11,true,10.852292556759961,,,
-Scadrial,45,TOTAL,Scadrial,6,true,,,,
-Roshar,44,El camino de los reyes,Roshar,8,true,24.623094669158597,El Archivo de las Tormentas,Roshar,1
-Cikatriz,44,Palabras radiantes,Cikatriz,5,true,45.30325435597096,El Archivo de las Tormentas,Roshar,2
-Conexión,44,TOTAL,Conexión,4,true,,,,
-Chiri-Chiri,44,TOTAL,Chiri-Chiri,2,false,,,,
-Zane,43,El Heroe de las Eras,Zane,2,false,83.67413640937846,Nacidos de la Bruma (Era 1),Scadrial,3
-Gaz,43,Juramentada,Gaz,4,true,53.868807645300826,El Archivo de las Tormentas,Roshar,3
-Eje,43,TOTAL,Eje,9,true,,,,
-Alomancia,42,Aleacion de Ley,Alomancia,9,true,18.55697559571965,Nacidos de la Bruma (Era 2),Scadrial,1
-Alomancia,41,Sombras de identidad,Alomancia,9,true,18.11514284344061,Nacidos de la Bruma (Era 2),Scadrial,2
-Taravangian,40,El camino de los reyes,Taravangian,4,true,50.11051873981472,El Archivo de las Tormentas,Roshar,1
-Cultivación,40,El Ritmo de la Guerra,Cultivación,5,true,41.18477668724633,El Archivo de las Tormentas,Roshar,4
-Elhokar,38,El Ritmo de la Guerra,Elhokar,4,true,47.604992802823986,El Archivo de las Tormentas,Roshar,4
-Hoid,38,El camino de los reyes,Hoid,9,true,16.78964458660349,El Archivo de las Tormentas,Roshar,1
-Lirin,38,Juramentada,Lirin,4,true,47.604992802823986,El Archivo de las Tormentas,Roshar,3
-Aliento,38,Palabras radiantes,Aliento,13,true,2.8161029418414296,El Archivo de las Tormentas,Roshar,2
-Kar,37,El Imperio Final,Kar,1,false,97.64512119576456,Nacidos de la Bruma (Era 1),Scadrial,1
-Cántico,37,TOTAL,Cántico,6,true,,,,
-Kar,37,TOTAL,Kar,1,false,,,,
-Aliento,36,El Ritmo de la Guerra,Aliento,13,true,2.6678869975339863,El Archivo de las Tormentas,Roshar,4
-Palona,36,Juramentada,Palona,3,true,55.45602147409737,El Archivo de las Tormentas,Roshar,3
-Potenciación,36,TOTAL,Potenciación,4,true,,,,
-Dabbid,35,El camino de los reyes,Dabbid,4,true,43.84670389733788,El Archivo de las Tormentas,Roshar,1
-Alomancia,35,El metal perdido,Alomancia,9,true,15.464146329766374,Nacidos de la Bruma (Era 2),Scadrial,4
-MeLaan,35,El Heroe de las Eras,MeLaan,4,true,43.84670389733788,Nacidos de la Bruma (Era 1),Scadrial,3
-Kaza,35,Juramentada,Kaza,1,false,92.36700653653405,El Archivo de las Tormentas,Roshar,3
-Yalb,35,Palabras radiantes,Yalb,4,true,43.84670389733788,El Archivo de las Tormentas,Roshar,2
-Rlain,35,Palabras radiantes,Rlain,3,true,53.915576433150214,El Archivo de las Tormentas,Roshar,2
-Kaza,35,TOTAL,Kaza,1,false,,,,
-Lhan,35,TOTAL,Lhan,2,false,,,,
-Ruina,34,El metal perdido,Ruina,8,true,19.02693678980437,Nacidos de la Bruma (Era 2),Scadrial,4
-Armonía,34,Aleacion de Ley,Armonía,5,true,35.00706018415938,Nacidos de la Bruma (Era 2),Scadrial,1
-Ranette,34,Brazales de duelo,Ranette,4,true,42.593940928842514,Nacidos de la Bruma (Era 2),Scadrial,3
-Dedelin,34,El aliento de los dioses,Dedelin,1,false,89.72794920691878,El aliento de los dioses,Nalthis,1
-Lhan,34,Palabras radiantes,Lhan,2,false,66.16094506788065,El Archivo de las Tormentas,Roshar,2
-Dedelin,34,TOTAL,Dedelin,1,false,,,,
-Cosmere,32,El metal perdido,Cosmere,10,true,10.76711157187881,Nacidos de la Bruma (Era 2),Scadrial,4
-Irich,32,Brazales de duelo,Irich,1,false,84.44983454768827,Nacidos de la Bruma (Era 2),Scadrial,3
-Straff,32,El Heroe de las Eras,Straff,3,true,49.29424131030877,Nacidos de la Bruma (Era 1),Scadrial,3
-Irich,32,TOTAL,Irich,1,false,,,,
-Kalak,32,TOTAL,Kalak,4,true,,,,
-Yalb,31,Esquirla del Amanecer,Yalb,4,true,38.83565202335641,,,
-Ruina,31,Sombras de identidad,Ruina,8,true,17.348089425998104,Nacidos de la Bruma (Era 2),Scadrial,2
-Investidura,30,El metal perdido,Investidura,9,true,13.254982568371178,Nacidos de la Bruma (Era 2),Scadrial,4
-Conexión,30,El Ritmo de la Guerra,Conexión,4,true,37.58288905486104,El Archivo de las Tormentas,Roshar,4
-Ishikk,29,El camino de los reyes,Ishikk,1,false,76.53266255884249,El Archivo de las Tormentas,Roshar,1
-Jordis,29,Brazales de duelo,Jordis,1,false,76.53266255884249,Nacidos de la Bruma (Era 2),Scadrial,3
-Wellen,29,TOTAL,Wellen,2,false,,,,
-Jordis,29,TOTAL,Jordis,1,false,,,,
-Ishikk,29,TOTAL,Ishikk,1,false,,,,
-Sangre Espectral,29,Palabras radiantes,Sangre Espectral,5,true,29.858963098253586,El Archivo de las Tormentas,Roshar,2
-Perpendicularidad,28,El Ritmo de la Guerra,Perpendicularidad,3,true,43.13246114652017,El Archivo de las Tormentas,Roshar,4
-Hesina,28,El camino de los reyes,Hesina,3,true,43.13246114652017,El Archivo de las Tormentas,Roshar,1
-TenSoon,27,El Pozo de la Ascension,TenSoon,6,true,22.8770422304545,Nacidos de la Bruma (Era 1),Scadrial,2
-Amaram,27,El Ritmo de la Guerra,Amaram,4,true,33.82460014937494,El Archivo de las Tormentas,Roshar,4
-Aliento,27,El camino de los reyes,Aliento,13,true,2.0009152481504895,El Archivo de las Tormentas,Roshar,1
-Fen,27,El Ritmo de la Guerra,Fen,3,true,41.59201610557302,El Archivo de las Tormentas,Roshar,4
-Investidura,26,El Ritmo de la Guerra,Investidura,9,true,11.48765155925502,El Archivo de las Tormentas,Roshar,4
-Hoid,26,El Imperio Final,Hoid,9,true,11.48765155925502,Nacidos de la Bruma (Era 1),Scadrial,1
-Palona,26,Palabras radiantes,Palona,3,true,40.051571064625875,El Archivo de las Tormentas,Roshar,2
-Honor,26,Palabras radiantes,Honor,6,true,22.029744370067295,El Archivo de las Tormentas,Roshar,2
-Axies,26,TOTAL,Axies,4,true,,,,
-Hoid,25,El metal perdido,Hoid,9,true,11.04581880697598,Nacidos de la Bruma (Era 2),Scadrial,4
-TenSoon,24,El metal perdido,TenSoon,6,true,20.33514864929289,Nacidos de la Bruma (Era 2),Scadrial,4
-Ranette,24,Sombras de identidad,Ranette,4,true,30.066311243888833,Nacidos de la Bruma (Era 2),Scadrial,2
-Hoid,24,El aliento de los dioses,Hoid,9,true,10.603986054696941,El aliento de los dioses,Nalthis,1
-Sangre Espectral,24,Juramentada,Sangre Espectral,5,true,24.710866012347793,El Archivo de las Tormentas,Roshar,3
-Chiri-Chiri,24,Juramentada,Chiri-Chiri,2,false,46.701843577327516,El Archivo de las Tormentas,Roshar,3
-Kalak,23,El camino de los reyes,Kalak,4,true,28.813548275393465,El Archivo de las Tormentas,Roshar,1
-Scadrial,23,El metal perdido,Scadrial,6,true,19.487850788905686,Nacidos de la Bruma (Era 2),Scadrial,4
-Axies,23,El camino de los reyes,Axies,4,true,28.813548275393465,El Archivo de las Tormentas,Roshar,1
-Baxil,23,El camino de los reyes,Baxil,1,false,60.69831858115094,El Archivo de las Tormentas,Roshar,1
-Sheler,23,TOTAL,Sheler,3,true,,,,
-Braize,23,TOTAL,Braize,3,true,,,,
-Baxil,23,TOTAL,Baxil,1,false,,,,
-Aliento,22,Brazales de duelo,Aliento,13,true,1.6303753873818803,Nacidos de la Bruma (Era 2),Scadrial,3
-Esfera,22,Danzante del Filo,Esfera,11,true,5.305565249971537,,,
-Yanagawn,22,El Ritmo de la Guerra,Yanagawn,3,true,33.889790900837276,El Archivo de las Tormentas,Roshar,4
-Sazed,22,El metal perdido,Sazed,5,true,22.65162717798548,Nacidos de la Bruma (Era 2),Scadrial,4
-Straff,22,El Imperio Final,Straff,3,true,33.889790900837276,Nacidos de la Bruma (Era 1),Scadrial,1
-Mem,22,TOTAL,Mem,3,true,,,,
-Wellen,21,El Heroe de las Eras,Wellen,2,false,40.86411313016158,Nacidos de la Bruma (Era 1),Scadrial,3
-Braize,21,El Ritmo de la Guerra,Braize,3,true,32.34934585989013,El Archivo de las Tormentas,Roshar,4
-Ruina,20,Aleacion de Ley,Ruina,8,true,11.192315758708453,Nacidos de la Bruma (Era 2),Scadrial,1
-Mem,20,Juramentada,Mem,3,true,30.80890081894298,El Archivo de las Tormentas,Roshar,3
-Intención,20,TOTAL,Intención,3,true,,,,
-Shalash,20,TOTAL,Shalash,3,true,,,,
-Chiri-Chiri,20,El Ritmo de la Guerra,Chiri-Chiri,2,false,38.91820298110626,El Archivo de las Tormentas,Roshar,4
-Cosmere,19,El Ritmo de la Guerra,Cosmere,10,true,6.392972495803044,El Archivo de las Tormentas,Roshar,4
-Sheler,19,Juramentada,Sheler,3,true,29.268455777995833,El Archivo de las Tormentas,Roshar,3
-Identidad,19,TOTAL,Identidad,3,true,,,,
-Lopen,18,El Ritmo de la Guerra,Lopen,5,true,18.533149509260845,El Archivo de las Tormentas,Roshar,4
-Ellista,18,Juramentada,Ellista,1,false,47.50303193307465,El Archivo de las Tormentas,Roshar,3
-Esfera,18,Brazales de duelo,Esfera,11,true,4.340917022703985,Nacidos de la Bruma (Era 2),Scadrial,3
-Ellista,18,TOTAL,Ellista,1,false,,,,
-Gaz,17,El Ritmo de la Guerra,Gaz,4,true,21.296970464421257,El Archivo de las Tormentas,Roshar,4
-Shalash,17,El Ritmo de la Guerra,Shalash,3,true,26.187565696101533,El Archivo de las Tormentas,Roshar,4
-Conservación,17,El metal perdido,Conservación,7,true,11.78350206951907,Nacidos de la Bruma (Era 2),Scadrial,4
-Adonalsium,17,TOTAL,Adonalsium,5,true,,,,
-Investidura,16,Brazales de duelo,Investidura,9,true,7.069324036464628,Nacidos de la Bruma (Era 2),Scadrial,3
-Aliento,16,El metal perdido,Aliento,13,true,1.1857275544595494,Nacidos de la Bruma (Era 2),Scadrial,4
-Perpendicularidad,16,Juramentada,Perpendicularidad,3,true,24.647120655154385,El Archivo de las Tormentas,Roshar,3
-Intención,16,El Ritmo de la Guerra,Intención,3,true,24.647120655154385,El Archivo de las Tormentas,Roshar,4
-Cosmere,15,Juramentada,Cosmere,10,true,5.0470835493181925,El Archivo de las Tormentas,Roshar,3
-Marsh,14,El metal perdido,Marsh,5,true,14.414671840536213,Nacidos de la Bruma (Era 2),Scadrial,4
-Cultivación,14,Juramentada,Cultivación,5,true,14.414671840536213,El Archivo de las Tormentas,Roshar,3
-Potenciación,14,El Ritmo de la Guerra,Potenciación,4,true,17.538681558935153,El Archivo de las Tormentas,Roshar,4
-Lezian,14,El Ritmo de la Guerra,Lezian,1,false,36.94680261461362,El Archivo de las Tormentas,Roshar,4
-Puuli,14,Juramentada,Puuli,1,false,36.94680261461362,El Archivo de las Tormentas,Roshar,3
-Identidad,14,Brazales de duelo,Identidad,3,true,21.566230573260086,Nacidos de la Bruma (Era 2),Scadrial,3
-Roshar,14,Palabras radiantes,Roshar,8,true,7.834621031095917,El Archivo de las Tormentas,Roshar,2
-Puuli,14,TOTAL,Puuli,1,false,,,,
-Lezian,14,TOTAL,Lezian,1,false,,,,
-Luz tormentosa,14,Danzante del Filo,Luz tormentosa,5,true,14.414671840536213,,,
-Sangre Espectral,14,El metal perdido,Sangre Espectral,5,true,14.414671840536213,Nacidos de la Bruma (Era 2),Scadrial,4
-Ashweather Cett,14,TOTAL,Ashweather Cett,2,false,,,,
-Wellid,13,El metal perdido,Wellid,1,false,34.30774528499836,Nacidos de la Bruma (Era 2),Scadrial,4
-Dominio,13,El Imperio Final,Dominio,5,true,13.385052423355056,Nacidos de la Bruma (Era 1),Scadrial,1
-Eje,13,El Ritmo de la Guerra,Eje,9,true,5.74382577962751,El Archivo de las Tormentas,Roshar,4
-Conservación,13,Sombras de identidad,Conservación,7,true,9.010913347279288,Nacidos de la Bruma (Era 2),Scadrial,2
-Wellid,13,TOTAL,Wellid,1,false,,,,
-Éter,13,TOTAL,Éter,3,true,,,,
-Potenciación,12,Palabras radiantes,Potenciación,4,true,15.033155621944417,El Archivo de las Tormentas,Roshar,2
-Walin,12,El Imperio Final,Walin,1,false,31.6686879553831,Nacidos de la Bruma (Era 1),Scadrial,1
-Nale,12,Juramentada,Nale,4,true,15.033155621944417,El Archivo de las Tormentas,Roshar,3
-Cántico,12,Palabras radiantes,Cántico,6,true,10.167574324646445,El Archivo de las Tormentas,Roshar,2
-Sel,12,TOTAL,Sel,8,true,,,,
-Walin,12,TOTAL,Walin,1,false,,,,
-Migs,11,Brazales de duelo,Migs,1,false,29.029630625767844,Nacidos de la Bruma (Era 2),Scadrial,3
-Humano,11,El Ritmo de la Guerra,Humano,8,true,6.155773667289649,El Archivo de las Tormentas,Roshar,4
-Cikatriz,11,El Ritmo de la Guerra,Cikatriz,5,true,11.32581358899274,El Archivo de las Tormentas,Roshar,4
-Aliento,11,El Pozo de la Ascension,Aliento,13,true,0.8151876936909401,Nacidos de la Bruma (Era 1),Scadrial,2
-Aliento,11,Sombras de identidad,Aliento,13,true,0.8151876936909401,Nacidos de la Bruma (Era 2),Scadrial,2
-Migs,11,TOTAL,Migs,1,false,,,,
-Nale,10,Danzante del Filo,Nale,4,true,12.52762968495368,,,
-Esfera,10,El aliento de los dioses,Esfera,11,true,2.4116205681688805,El aliento de los dioses,Nalthis,1
-Astilla,10,Juramentada,Astilla,10,true,3.3647223662121286,El Archivo de las Tormentas,Roshar,3
-Ruina,10,Brazales de duelo,Ruina,8,true,5.596157879354227,Nacidos de la Bruma (Era 2),Scadrial,3
-Aliento,10,El Heroe de las Eras,Aliento,13,true,0.7410797215372183,Nacidos de la Bruma (Era 1),Scadrial,3
-Astilla,10,El camino de los reyes,Astilla,10,true,3.3647223662121286,El Archivo de las Tormentas,Roshar,1
-Astilla,10,Juramentada,Astilla,10,true,3.3647223662121286,El Archivo de las Tormentas,Roshar,3
-Hesina,10,Juramentada,Hesina,3,true,15.40445040947149,El Archivo de las Tormentas,Roshar,3
-Tanavast,10,TOTAL,Tanavast,4,true,,,,
-Lasca,9,El camino de los reyes,Lasca,10,true,3.0282501295909157,El Archivo de las Tormentas,Roshar,1
-Adonalsium,9,Juramentada,Adonalsium,5,true,9.266574754630422,El Archivo de las Tormentas,Roshar,3
-Cántico,9,El camino de los reyes,Cántico,6,true,7.625680743484833,El Archivo de las Tormentas,Roshar,1
-Aliento,9,El Imperio Final,Aliento,13,true,0.6669717493834966,Nacidos de la Bruma (Era 1),Scadrial,1
-Geranid,9,El camino de los reyes,Geranid,1,false,23.751515966537326,El Archivo de las Tormentas,Roshar,1
-Potenciación,9,Juramentada,Potenciación,4,true,11.274866716458313,El Archivo de las Tormentas,Roshar,3
-Eje,9,Sombras de identidad,Eje,9,true,3.976494770511353,Nacidos de la Bruma (Era 2),Scadrial,2
-Geranid,9,TOTAL,Geranid,1,false,,,,
-Wellen,8,El Pozo de la Ascension,Wellen,2,false,15.567281192442506,Nacidos de la Bruma (Era 1),Scadrial,2
-Vasher,8,Juramentada,Vasher,3,true,12.323560327577193,El Archivo de las Tormentas,Roshar,3
-Esfera,8,Brazales de duelo,Esfera,11,true,1.9292964545351043,Nacidos de la Bruma (Era 2),Scadrial,3
-Honor,8,El camino de los reyes,Honor,6,true,6.778382883097629,El Archivo de las Tormentas,Roshar,1
-Dabbid,8,Juramentada,Dabbid,4,true,10.022103747962944,El Archivo de las Tormentas,Roshar,3
-Astilla,7,Aleacion de Ley,Astilla,10,true,2.3553056563484898,Nacidos de la Bruma (Era 2),Scadrial,1
-Dockson,7,El Heroe de las Eras,Dockson,3,true,10.783115286630043,Nacidos de la Bruma (Era 1),Scadrial,3
-Vin,7,El metal perdido,Vin,6,true,5.931085022710426,Nacidos de la Bruma (Era 2),Scadrial,4
-Fen,7,Esquirla del Amanecer,Fen,3,true,10.783115286630043,,,
-TenSoon,7,Brazales de duelo,TenSoon,6,true,5.931085022710426,Nacidos de la Bruma (Era 2),Scadrial,3
-Aliento,7,Aleacion de Ley,Aliento,13,true,0.5187558050760528,Nacidos de la Bruma (Era 2),Scadrial,1
-Ashweather Cett,7,El Pozo de la Ascension,Ashweather Cett,2,false,13.621371043387192,Nacidos de la Bruma (Era 1),Scadrial,2
-Ashweather Cett,7,El Heroe de las Eras,Ashweather Cett,2,false,13.621371043387192,Nacidos de la Bruma (Era 1),Scadrial,3
-Scadrial,6,Sombras de identidad,Scadrial,6,true,5.0837871623232225,Nacidos de la Bruma (Era 2),Scadrial,2
-Éter,6,El metal perdido,Éter,3,true,9.242670245682895,Nacidos de la Bruma (Era 2),Scadrial,4
-Lasca,6,Juramentada,Lasca,10,true,2.018833419727277,El Archivo de las Tormentas,Roshar,3
-Scadrial,6,Brazales de duelo,Scadrial,6,true,5.0837871623232225,Nacidos de la Bruma (Era 2),Scadrial,3
-Roshar,6,Danzante del Filo,Roshar,8,true,3.357694727612536,,,
-Conexión,6,Brazales de duelo,Conexión,4,true,7.516577810972208,Nacidos de la Bruma (Era 2),Scadrial,3
-Humano,6,El Ritmo de la Guerra,Humano,8,true,3.357694727612536,El Archivo de las Tormentas,Roshar,4
-Odium,6,Palabras radiantes,Odium,5,true,6.177716503086948,El Archivo de las Tormentas,Roshar,2
-Piedad,6,TOTAL,Piedad,2,false,,,,
-Paige,6,TOTAL,Paige,3,true,,,,
-Talenel,6,TOTAL,Talenel,3,true,,,,
-Fantasma,5,El aliento de los dioses,Fantasma,5,true,5.148097085905791,El aliento de los dioses,Nalthis,1
-Lasca,5,El camino de los reyes,Lasca,10,true,1.6823611831060643,El Archivo de las Tormentas,Roshar,1
-Odium,5,El camino de los reyes,Odium,5,true,5.148097085905791,El Archivo de las Tormentas,Roshar,1
-Esfera,5,El metal perdido,Esfera,11,true,1.2058102840844402,Nacidos de la Bruma (Era 2),Scadrial,4
-Lopen,5,Esquirla del Amanecer,Lopen,5,true,5.148097085905791,,,
-Humano,5,Juramentada,Humano,8,true,2.7980789396771133,El Archivo de las Tormentas,Roshar,3
-Cosmere,5,Sombras de identidad,Cosmere,10,true,1.6823611831060643,Nacidos de la Bruma (Era 2),Scadrial,2
-Scadrial,5,Aleacion de Ley,Scadrial,6,true,4.236489301936018,Nacidos de la Bruma (Era 2),Scadrial,1
-Dieno,5,El Ritmo de la Guerra,Dieno,1,false,13.195286648076292,El Archivo de las Tormentas,Roshar,4
-Esfera,5,El aliento de los dioses,Esfera,11,true,1.2058102840844402,El aliento de los dioses,Nalthis,1
-Éter,5,El metal perdido,Éter,3,true,7.702225204735745,Nacidos de la Bruma (Era 2),Scadrial,4
-Investidura,5,Palabras radiantes,Investidura,9,true,2.209163761395196,El Archivo de las Tormentas,Roshar,2
-Vin,5,Sombras de identidad,Vin,6,true,4.236489301936018,Nacidos de la Bruma (Era 2),Scadrial,2
-Cosmere,5,Brazales de duelo,Cosmere,10,true,1.6823611831060643,Nacidos de la Bruma (Era 2),Scadrial,3
-Lasca,5,El Pozo de la Ascension,Lasca,10,true,1.6823611831060643,Nacidos de la Bruma (Era 1),Scadrial,2
-Dor,5,El Ritmo de la Guerra,Dor,3,true,7.702225204735745,El Archivo de las Tormentas,Roshar,4
-Eje,5,El Ritmo de la Guerra,Eje,9,true,2.209163761395196,El Archivo de las Tormentas,Roshar,4
-Cosmere,5,El camino de los reyes,Cosmere,10,true,1.6823611831060643,El Archivo de las Tormentas,Roshar,1
-Astilla,5,Brazales de duelo,Astilla,10,true,1.6823611831060643,Nacidos de la Bruma (Era 2),Scadrial,3
-Lasca,5,El Heroe de las Eras,Lasca,10,true,1.6823611831060643,Nacidos de la Bruma (Era 1),Scadrial,3
-Investidura,5,Juramentada,Investidura,9,true,2.209163761395196,El Archivo de las Tormentas,Roshar,3
-Valentía,5,TOTAL,Valentía,2,false,,,,
-Iniciación,5,TOTAL,Iniciación,3,true,,,,
-Fortuna,5,TOTAL,Fortuna,4,true,,,,
-Kenton,5,TOTAL,Kenton,2,false,,,,
-Dieno,5,TOTAL,Dieno,1,false,,,,
-Edwarn Ladrian,5,TOTAL,Edwarn Ladrian,3,true,,,,
-Kenton,4,El Pozo de la Ascension,Kenton,2,false,7.783640596221253,Nacidos de la Bruma (Era 1),Scadrial,2
-Valentía,4,El Ritmo de la Guerra,Valentía,2,false,7.783640596221253,El Archivo de las Tormentas,Roshar,4
-Talenel,4,Juramentada,Talenel,3,true,6.161780163788596,El Archivo de las Tormentas,Roshar,3
-Cántico,4,Palabras radiantes,Cántico,6,true,3.3891914415488147,El Archivo de las Tormentas,Roshar,2
-Esfera,4,Sombras de identidad,Esfera,11,true,0.9646482272675522,Nacidos de la Bruma (Era 2),Scadrial,2
-Investidura,4,Sombras de identidad,Investidura,9,true,1.767331009116157,Nacidos de la Bruma (Era 2),Scadrial,2
-Cosmere,4,Aleacion de Ley,Cosmere,10,true,1.3458889464848514,Nacidos de la Bruma (Era 2),Scadrial,1
-Astilla,4,El Pozo de la Ascension,Astilla,10,true,1.3458889464848514,Nacidos de la Bruma (Era 1),Scadrial,2
-Tanavast,4,El Ritmo de la Guerra,Tanavast,4,true,5.011051873981472,El Archivo de las Tormentas,Roshar,4
-Identidad,4,El metal perdido,Identidad,3,true,6.161780163788596,Nacidos de la Bruma (Era 2),Scadrial,4
-Conexión,4,El metal perdido,Conexión,4,true,5.011051873981472,Nacidos de la Bruma (Era 2),Scadrial,4
-Eje,4,Juramentada,Eje,9,true,1.767331009116157,El Archivo de las Tormentas,Roshar,3
-Kalak,4,Juramentada,Kalak,4,true,5.011051873981472,El Archivo de las Tormentas,Roshar,3
-Cosmere,4,Palabras radiantes,Cosmere,10,true,1.3458889464848514,El Archivo de las Tormentas,Roshar,2
-Astilla,4,Sombras de identidad,Astilla,10,true,1.3458889464848514,Nacidos de la Bruma (Era 2),Scadrial,2
-Aliento,4,El Ritmo de la Guerra,Aliento,13,true,0.29643188861488734,El Archivo de las Tormentas,Roshar,4
-Kalak,4,El Ritmo de la Guerra,Kalak,4,true,5.011051873981472,El Archivo de las Tormentas,Roshar,4
-Roshar,4,El metal perdido,Roshar,8,true,2.2384631517416906,Nacidos de la Bruma (Era 2),Scadrial,4
-Prasanva,4,El metal perdido,Prasanva,1,false,10.556229318461034,Nacidos de la Bruma (Era 2),Scadrial,4
-Dor,4,El metal perdido,Dor,3,true,6.161780163788596,Nacidos de la Bruma (Era 2),Scadrial,4
-Conexión,4,Juramentada,Conexión,4,true,5.011051873981472,El Archivo de las Tormentas,Roshar,3
-Ashyn,4,El Ritmo de la Guerra,Ashyn,1,false,10.556229318461034,El Archivo de las Tormentas,Roshar,4
-Redespíritu,4,TOTAL,Redespíritu,3,true,,,,
-Nalthis,4,TOTAL,Nalthis,2,false,,,,
-Ashyn,4,TOTAL,Ashyn,1,false,,,,
-Prasanva,4,TOTAL,Prasanva,1,false,,,,
-Cosmere,3,El Pozo de la Ascension,Cosmere,10,true,1.0094167098636384,Nacidos de la Bruma (Era 1),Scadrial,2
-Scadrial,3,El Ritmo de la Guerra,Scadrial,6,true,2.5418935811616112,El Archivo de las Tormentas,Roshar,4
-Sheler,3,El camino de los reyes,Sheler,3,true,4.621335122841447,El Archivo de las Tormentas,Roshar,1
-Astilla,3,El metal perdido,Astilla,10,true,1.0094167098636384,Nacidos de la Bruma (Era 2),Scadrial,4
-Cántico,3,Juramentada,Cántico,6,true,2.5418935811616112,El Archivo de las Tormentas,Roshar,3
-Tanavast,3,Palabras radiantes,Tanavast,4,true,3.758288905486104,El Archivo de las Tormentas,Roshar,2
-Sazed,3,Sombras de identidad,Sazed,5,true,3.088858251543474,Nacidos de la Bruma (Era 2),Scadrial,2
-Investidura,3,Sombras de identidad,Investidura,9,true,1.3254982568371176,Nacidos de la Bruma (Era 2),Scadrial,2
-Investidura,3,Aleacion de Ley,Investidura,9,true,1.3254982568371176,Nacidos de la Bruma (Era 2),Scadrial,1
-Investidura,3,Aleacion de Ley,Investidura,9,true,1.3254982568371176,Nacidos de la Bruma (Era 2),Scadrial,1
-Conservación,3,Brazales de duelo,Conservación,7,true,2.0794415416798357,Nacidos de la Bruma (Era 2),Scadrial,3
-Cosmere,3,El Heroe de las Eras,Cosmere,10,true,1.0094167098636384,Nacidos de la Bruma (Era 1),Scadrial,3
-Piedad,3,El Ritmo de la Guerra,Piedad,2,false,5.8377304471659395,El Archivo de las Tormentas,Roshar,4
-Perpendicularidad,3,El metal perdido,Perpendicularidad,3,true,4.621335122841447,Nacidos de la Bruma (Era 2),Scadrial,4
-Elend,3,El metal perdido,Elend,6,true,2.5418935811616112,Nacidos de la Bruma (Era 2),Scadrial,4
-Vivenna,3,Juramentada,Vivenna,3,true,4.621335122841447,El Archivo de las Tormentas,Roshar,3
-Kelsier,3,Sombras de identidad,Kelsier,7,true,2.0794415416798357,Nacidos de la Bruma (Era 2),Scadrial,2
-Investidura,3,Brazales de duelo,Investidura,9,true,1.3254982568371176,Nacidos de la Bruma (Era 2),Scadrial,3
-Lasca,3,Danzante del Filo,Lasca,10,true,1.0094167098636384,,,
-Lasca,3,El Imperio Final,Lasca,10,true,1.0094167098636384,Nacidos de la Bruma (Era 1),Scadrial,1
-Paige,3,El Ritmo de la Guerra,Paige,3,true,4.621335122841447,El Archivo de las Tormentas,Roshar,4
-Investidura,3,El aliento de los dioses,Investidura,9,true,1.3254982568371176,El aliento de los dioses,Nalthis,1
-Teft,3,Esquirla del Amanecer,Teft,5,true,3.088858251543474,,,
-Piedad,3,Juramentada,Piedad,2,false,5.8377304471659395,El Archivo de las Tormentas,Roshar,3
-Honor,3,Danzante del Filo,Honor,6,true,2.5418935811616112,,,
-Iniciación,3,El Ritmo de la Guerra,Iniciación,3,true,4.621335122841447,El Archivo de las Tormentas,Roshar,4
-Nalthis,3,El Ritmo de la Guerra,Nalthis,2,false,5.8377304471659395,El Archivo de las Tormentas,Roshar,4
-Adonalsium,3,El Ritmo de la Guerra,Adonalsium,5,true,3.088858251543474,El Archivo de las Tormentas,Roshar,4
-Cántico,3,El camino de los reyes,Cántico,6,true,2.5418935811616112,El Archivo de las Tormentas,Roshar,1
-Intención,3,El metal perdido,Intención,3,true,4.621335122841447,Nacidos de la Bruma (Era 2),Scadrial,4
-Adonalsium,3,El metal perdido,Adonalsium,5,true,3.088858251543474,Nacidos de la Bruma (Era 2),Scadrial,4
-Capricho,3,TOTAL,Capricho,3,true,,,,
-Fragmentación,3,TOTAL,Fragmentación,3,true,,,,
-Miles Dagouter,3,Aleacion de Ley,Miles Dagouter,1,false,7.917171988845775,Nacidos de la Bruma (Era 2),Scadrial,1
-Allrianne Cett,3,TOTAL,Allrianne Cett,2,false,,,,
-Miles Dagouter,3,TOTAL,Miles Dagouter,1,false,,,,
-Kelsier,2,Aleacion de Ley,Kelsier,7,true,1.3862943611198906,Nacidos de la Bruma (Era 2),Scadrial,1
-Eje,2,Brazales de duelo,Eje,9,true,0.8836655045580785,Nacidos de la Bruma (Era 2),Scadrial,3
-Roshar,2,Brazales de duelo,Roshar,8,true,1.1192315758708453,Nacidos de la Bruma (Era 2),Scadrial,3
-Investidura,2,Danzante del Filo,Investidura,9,true,0.8836655045580785,,,
-Hoid,2,El Heroe de las Eras,Hoid,9,true,0.8836655045580785,Nacidos de la Bruma (Era 1),Scadrial,3
-Palona,2,El Ritmo de la Guerra,Palona,3,true,3.080890081894298,El Archivo de las Tormentas,Roshar,4
-Investidura,2,El metal perdido,Investidura,9,true,0.8836655045580785,Nacidos de la Bruma (Era 2),Scadrial,4
-Sel,2,Brazales de duelo,Sel,8,true,1.1192315758708453,Nacidos de la Bruma (Era 2),Scadrial,3
-Ruina,2,El Ritmo de la Guerra,Ruina,8,true,1.1192315758708453,El Archivo de las Tormentas,Roshar,4
-Astilla,2,El metal perdido,Astilla,10,true,0.6729444732424257,Nacidos de la Bruma (Era 2),Scadrial,4
-Shalash,2,Juramentada,Shalash,3,true,3.080890081894298,El Archivo de las Tormentas,Roshar,3
-Astilla,2,Palabras radiantes,Astilla,10,true,0.6729444732424257,El Archivo de las Tormentas,Roshar,2
-Elend,2,Sombras de identidad,Elend,6,true,1.6945957207744073,Nacidos de la Bruma (Era 2),Scadrial,2
-Conservación,2,Aleacion de Ley,Conservación,7,true,1.3862943611198906,Nacidos de la Bruma (Era 2),Scadrial,1
-Sel,2,Aleacion de Ley,Sel,8,true,1.1192315758708453,Nacidos de la Bruma (Era 2),Scadrial,1
-Syl,2,Brazales de duelo,Syl,5,true,2.0592388343623163,Nacidos de la Bruma (Era 2),Scadrial,3
-Aliento,2,Danzante del Filo,Aliento,13,true,0.14821594430744367,,,
-Dominio,2,El Imperio Final,Dominio,5,true,2.0592388343623163,Nacidos de la Bruma (Era 1),Scadrial,1
-Lasca,2,El Imperio Final,Lasca,10,true,0.6729444732424257,Nacidos de la Bruma (Era 1),Scadrial,1
-Dominio,2,El Pozo de la Ascension,Dominio,5,true,2.0592388343623163,Nacidos de la Bruma (Era 1),Scadrial,2
-Paige,2,El metal perdido,Paige,3,true,3.080890081894298,Nacidos de la Bruma (Era 2),Scadrial,4
-Lasca,2,El metal perdido,Lasca,10,true,0.6729444732424257,Nacidos de la Bruma (Era 2),Scadrial,4
-Luzdeplata,2,El metal perdido,Luzdeplata,1,false,5.278114659230517,Nacidos de la Bruma (Era 2),Scadrial,4
-Eje,2,Esquirla del Amanecer,Eje,9,true,0.8836655045580785,,,
-Hoid,2,Juramentada,Hoid,9,true,0.8836655045580785,El Archivo de las Tormentas,Roshar,3
-Cántico,2,Juramentada,Cántico,6,true,1.6945957207744073,El Archivo de las Tormentas,Roshar,3
-Roshar,2,Sombras de identidad,Roshar,8,true,1.1192315758708453,Nacidos de la Bruma (Era 2),Scadrial,2
-Kelsier,2,Brazales de duelo,Kelsier,7,true,1.3862943611198906,Nacidos de la Bruma (Era 2),Scadrial,3
-Elend,2,Brazales de duelo,Elend,6,true,1.6945957207744073,Nacidos de la Bruma (Era 2),Scadrial,3
-Vin,2,Brazales de duelo,Vin,6,true,1.6945957207744073,Nacidos de la Bruma (Era 2),Scadrial,3
-Dominio,2,El Heroe de las Eras,Dominio,5,true,2.0592388343623163,Nacidos de la Bruma (Era 1),Scadrial,3
-Cántico,2,El Ritmo de la Guerra,Cántico,6,true,1.6945957207744073,El Archivo de las Tormentas,Roshar,4
-Ambición,2,El Ritmo de la Guerra,Ambición,1,false,5.278114659230517,El Archivo de las Tormentas,Roshar,4
-Conservación,2,El Ritmo de la Guerra,Conservación,7,true,1.3862943611198906,El Archivo de las Tormentas,Roshar,4
-Tanavast,2,El camino de los reyes,Tanavast,4,true,2.505525936990736,El Archivo de las Tormentas,Roshar,1
-Eje,2,El metal perdido,Eje,9,true,0.8836655045580785,Nacidos de la Bruma (Era 2),Scadrial,4
-Sel,2,El metal perdido,Sel,8,true,1.1192315758708453,Nacidos de la Bruma (Era 2),Scadrial,4
-Scadrial,2,Juramentada,Scadrial,6,true,1.6945957207744073,El Archivo de las Tormentas,Roshar,3
-Alomancia,2,Juramentada,Alomancia,9,true,0.8836655045580785,El Archivo de las Tormentas,Roshar,3
-Fortuna,2,Juramentada,Fortuna,4,true,2.505525936990736,El Archivo de las Tormentas,Roshar,3
-Yalb,2,Juramentada,Yalb,4,true,2.505525936990736,El Archivo de las Tormentas,Roshar,3
-Dabbid,2,Palabras radiantes,Dabbid,4,true,2.505525936990736,El Archivo de las Tormentas,Roshar,2
-Esfera,2,Sombras de identidad,Esfera,11,true,0.4823241136337761,Nacidos de la Bruma (Era 2),Scadrial,2
-Sel,2,Sombras de identidad,Sel,8,true,1.1192315758708453,Nacidos de la Bruma (Era 2),Scadrial,2
-Invención,2,TOTAL,Invención,2,false,,,,
-Luzdeplata,2,TOTAL,Luzdeplata,1,false,,,,
-Ambición,2,TOTAL,Ambición,1,false,,,,
-Resonancia,2,TOTAL,Resonancia,2,false,,,,
-Templeton Fig,2,Brazales de duelo,Templeton Fig,1,false,5.278114659230517,Nacidos de la Bruma (Era 2),Scadrial,3
-Sangre Espectral,2,El camino de los reyes,Sangre Espectral,5,true,2.0592388343623163,El Archivo de las Tormentas,Roshar,1
-Edwarn Ladrian,2,Aleacion de Ley,Edwarn Ladrian,3,true,3.080890081894298,Nacidos de la Bruma (Era 2),Scadrial,1
-Allrianne Cett,2,El Pozo de la Ascension,Allrianne Cett,2,false,3.8918202981106265,Nacidos de la Bruma (Era 1),Scadrial,2
-Philen Frandeu,2,El Pozo de la Ascension,Philen Frandeu,1,false,5.278114659230517,Nacidos de la Bruma (Era 1),Scadrial,2
-Edwarn Ladrian,2,Sombras de identidad,Edwarn Ladrian,3,true,3.080890081894298,Nacidos de la Bruma (Era 2),Scadrial,2
-Philen Frandeu,2,TOTAL,Philen Frandeu,1,false,,,,
-Templeton Fig,2,TOTAL,Templeton Fig,1,false,,,,
-Redespíritu,1,Aleacion de Ley,Redespíritu,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,1
-Dalinar,1,Danzante del Filo,Dalinar,5,true,1.0296194171811581,,,
-Yanagawn,1,Danzante del Filo,Yanagawn,3,true,1.540445040947149,,,
-Kenton,1,El Imperio Final,Kenton,2,false,1.9459101490553132,Nacidos de la Bruma (Era 1),Scadrial,1
-TenSoon,1,El Imperio Final,TenSoon,6,true,0.8472978603872037,Nacidos de la Bruma (Era 1),Scadrial,1
-Esfera,1,El Imperio Final,Esfera,11,true,0.24116205681688804,Nacidos de la Bruma (Era 1),Scadrial,1
-Esfera,1,El Pozo de la Ascension,Esfera,11,true,0.24116205681688804,Nacidos de la Bruma (Era 1),Scadrial,2
-Fortuna,1,El Ritmo de la Guerra,Fortuna,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,4
-Dotación,1,El Ritmo de la Guerra,Dotación,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,4
-Resonancia,1,El Ritmo de la Guerra,Resonancia,2,false,1.9459101490553132,El Archivo de las Tormentas,Roshar,4
-Fragmentación,1,El Ritmo de la Guerra,Fragmentación,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4
-Alomancia,1,El Ritmo de la Guerra,Alomancia,9,true,0.44183275227903923,El Archivo de las Tormentas,Roshar,4
-Eje,1,El aliento de los dioses,Eje,9,true,0.44183275227903923,El aliento de los dioses,Nalthis,1
-Lasca,1,El aliento de los dioses,Lasca,10,true,0.33647223662121284,El aliento de los dioses,Nalthis,1
-Shalash,1,El camino de los reyes,Shalash,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,1
-Lhan,1,El camino de los reyes,Lhan,2,false,1.9459101490553132,El Archivo de las Tormentas,Roshar,1
-Eje,1,El camino de los reyes,Eje,9,true,0.44183275227903923,El Archivo de las Tormentas,Roshar,1
-Invención,1,El camino de los reyes,Invención,2,false,1.9459101490553132,El Archivo de las Tormentas,Roshar,1
-Eshonai,1,El camino de los reyes,Eshonai,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,1
-Perpendicularidad,1,El metal perdido,Perpendicularidad,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,4
-Fragmentación,1,El metal perdido,Fragmentación,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,4
-Redespíritu,1,El metal perdido,Redespíritu,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,4
-Intención,1,Juramentada,Intención,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,3
-Iniciación,1,Juramentada,Iniciación,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,3
-Obrodai,1,Juramentada,Obrodai,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,3
-Axies,1,Juramentada,Axies,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,3
-Eje,1,Juramentada,Eje,9,true,0.44183275227903923,El Archivo de las Tormentas,Roshar,3
-Sel,1,Juramentada,Sel,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,3
-Astilla,1,Palabras radiantes,Astilla,10,true,0.33647223662121284,El Archivo de las Tormentas,Roshar,2
-Humano,1,Palabras radiantes,Humano,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,2
-Braize,1,Palabras radiantes,Braize,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,2
-Marsh,1,Sombras de identidad,Marsh,5,true,1.0296194171811581,Nacidos de la Bruma (Era 2),Scadrial,2
-Astilla,1,Sombras de identidad,Astilla,10,true,0.33647223662121284,Nacidos de la Bruma (Era 2),Scadrial,2
-Potenciación,1,Danzante del Filo,Potenciación,4,true,1.252762968495368,,,
-Astilla,1,El Imperio Final,Astilla,10,true,0.33647223662121284,Nacidos de la Bruma (Era 1),Scadrial,1
-Ruina,1,El Pozo de la Ascension,Ruina,8,true,0.5596157879354227,Nacidos de la Bruma (Era 1),Scadrial,2
-Devoción,1,El Ritmo de la Guerra,Devoción,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,4
-Hoid,1,El Ritmo de la Guerra,Hoid,9,true,0.44183275227903923,El Archivo de las Tormentas,Roshar,4
-Treno,1,El Ritmo de la Guerra,Treno,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,4
-Redespíritu,1,El Ritmo de la Guerra,Redespíritu,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4
-Éter,1,El Ritmo de la Guerra,Éter,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4
-Eje,1,El aliento de los dioses,Eje,9,true,0.44183275227903923,El aliento de los dioses,Nalthis,1
-Sisirinah,1,El aliento de los dioses,Sisirinah,1,false,2.6390573296152584,El aliento de los dioses,Nalthis,1
-Resonancia,1,El aliento de los dioses,Resonancia,2,false,1.9459101490553132,El aliento de los dioses,Nalthis,1
-Sel,1,El camino de los reyes,Sel,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,1
-Adonalsium,1,El camino de los reyes,Adonalsium,5,true,1.0296194171811581,El Archivo de las Tormentas,Roshar,1
-Cultivación,1,El camino de los reyes,Cultivación,5,true,1.0296194171811581,El Archivo de las Tormentas,Roshar,1
-Talenel,1,El camino de los reyes,Talenel,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,1
-Cikatriz,1,El metal perdido,Cikatriz,5,true,1.0296194171811581,Nacidos de la Bruma (Era 2),Scadrial,4
-Humano,1,El metal perdido,Humano,8,true,0.5596157879354227,Nacidos de la Bruma (Era 2),Scadrial,4
-Cuna,1,El metal perdido,Cuna,1,false,2.6390573296152584,Nacidos de la Bruma (Era 2),Scadrial,4
-Mythos,1,El metal perdido,Mythos,1,false,2.6390573296152584,Nacidos de la Bruma (Era 2),Scadrial,4
-Redespíritu,1,El metal perdido,Redespíritu,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,4
-Paige,1,Juramentada,Paige,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,3
-Lasca,1,Juramentada,Lasca,10,true,0.33647223662121284,El Archivo de las Tormentas,Roshar,3
-Lirin,1,Palabras radiantes,Lirin,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,2
-Hoid,1,Sombras de identidad,Hoid,9,true,0.44183275227903923,Nacidos de la Bruma (Era 2),Scadrial,2
-Humano,1,Sombras de identidad,Humano,8,true,0.5596157879354227,Nacidos de la Bruma (Era 2),Scadrial,2
-Fantasma,1,Sombras de identidad,Fantasma,5,true,1.0296194171811581,Nacidos de la Bruma (Era 2),Scadrial,2
-Fortuna,1,Brazales de duelo,Fortuna,4,true,1.252762968495368,Nacidos de la Bruma (Era 2),Scadrial,3
-Humano,1,El Heroe de las Eras,Humano,8,true,0.5596157879354227,Nacidos de la Bruma (Era 1),Scadrial,3
-Capricho,1,El Pozo de la Ascension,Capricho,3,true,1.540445040947149,Nacidos de la Bruma (Era 1),Scadrial,2
-Aliento,1,El Pozo de la Ascension,Aliento,13,true,0.07410797215372183,Nacidos de la Bruma (Era 1),Scadrial,2
-Capricho,1,El Ritmo de la Guerra,Capricho,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4
-Invención,1,El Ritmo de la Guerra,Invención,2,false,1.9459101490553132,El Archivo de las Tormentas,Roshar,4
-Armonía,1,El Ritmo de la Guerra,Armonía,5,true,1.0296194171811581,El Archivo de las Tormentas,Roshar,4
-Lasca,1,El Ritmo de la Guerra,Lasca,10,true,0.33647223662121284,El Archivo de las Tormentas,Roshar,4
-Vivenna,1,El Ritmo de la Guerra,Vivenna,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4
-Sheler,1,El Ritmo de la Guerra,Sheler,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4
-Valentía,1,El aliento de los dioses,Valentía,2,false,1.9459101490553132,El aliento de los dioses,Nalthis,1
-Fortuna,1,El camino de los reyes,Fortuna,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,1
-Fragmentación,1,El camino de los reyes,Fragmentación,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,1
-Odium,1,El metal perdido,Odium,5,true,1.0296194171811581,Nacidos de la Bruma (Era 2),Scadrial,4
-Capricho,1,El metal perdido,Capricho,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,4
-Bjendal,1,El metal perdido,Bjendal,1,false,2.6390573296152584,Nacidos de la Bruma (Era 2),Scadrial,4
-Lasca,1,El metal perdido,Lasca,10,true,0.33647223662121284,Nacidos de la Bruma (Era 2),Scadrial,4
-Eje,1,El metal perdido,Eje,9,true,0.44183275227903923,Nacidos de la Bruma (Era 2),Scadrial,4
-Humano,1,Juramentada,Humano,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,3
-Identidad,1,Juramentada,Identidad,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,3
-Tanavast,1,Juramentada,Tanavast,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,3
-Éter,1,Juramentada,Éter,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,3
-Braize,1,Juramentada,Braize,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,3
-Humano,1,Palabras radiantes,Humano,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,2
-Ruina,1,Palabras radiantes,Ruina,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,2
-Cultivación,1,Palabras radiantes,Cultivación,5,true,1.0296194171811581,El Archivo de las Tormentas,Roshar,2
-Iniciación,1,Palabras radiantes,Iniciación,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,2
-Talenel,1,Palabras radiantes,Talenel,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,2
-Adonalsium,1,Palabras radiantes,Adonalsium,5,true,1.0296194171811581,El Archivo de las Tormentas,Roshar,2
-Sel,1,Palabras radiantes,Sel,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,2
-Lasca,1,Aleacion de Ley,Lasca,10,true,0.33647223662121284,Nacidos de la Bruma (Era 2),Scadrial,1
-Hoid,1,Brazales de duelo,Hoid,9,true,0.44183275227903923,Nacidos de la Bruma (Era 2),Scadrial,3
-Szeth,1,Danzante del Filo,Szeth,5,true,1.0296194171811581,,,
-Cultivación,1,Danzante del Filo,Cultivación,5,true,1.0296194171811581,,,
-Axies,1,Danzante del Filo,Axies,4,true,1.252762968495368,,,
-Eje,1,El Heroe de las Eras,Eje,9,true,0.44183275227903923,Nacidos de la Bruma (Era 1),Scadrial,3
-Lasca,1,El Heroe de las Eras,Lasca,10,true,0.33647223662121284,Nacidos de la Bruma (Era 1),Scadrial,3
-Cántico,1,El Imperio Final,Cántico,6,true,0.8472978603872037,Nacidos de la Bruma (Era 1),Scadrial,1
-Humano,1,El Pozo de la Ascension,Humano,8,true,0.5596157879354227,Nacidos de la Bruma (Era 1),Scadrial,2
-Conservación,1,El Pozo de la Ascension,Conservación,7,true,0.6931471805599453,Nacidos de la Bruma (Era 1),Scadrial,2
-Cántico,1,El Pozo de la Ascension,Cántico,6,true,0.8472978603872037,Nacidos de la Bruma (Era 1),Scadrial,2
-Mem,1,El Ritmo de la Guerra,Mem,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4
-Dominio,1,El Ritmo de la Guerra,Dominio,5,true,1.0296194171811581,El Archivo de las Tormentas,Roshar,4
-Ruina,1,El Ritmo de la Guerra,Ruina,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,4
-Vasher,1,El Ritmo de la Guerra,Vasher,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4
-Sel,1,El Ritmo de la Guerra,Sel,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,4
-Yolen,1,El Ritmo de la Guerra,Yolen,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,4
-Humano,1,El aliento de los dioses,Humano,8,true,0.5596157879354227,El aliento de los dioses,Nalthis,1
-Astilla,1,El aliento de los dioses,Astilla,10,true,0.33647223662121284,El aliento de los dioses,Nalthis,1
-Honor,1,El metal perdido,Honor,6,true,0.8472978603872037,Nacidos de la Bruma (Era 2),Scadrial,4
-Mem,1,El metal perdido,Mem,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,4
-Axies,1,El metal perdido,Axies,4,true,1.252762968495368,Nacidos de la Bruma (Era 2),Scadrial,4
-Nalthis,1,El metal perdido,Nalthis,2,false,1.9459101490553132,Nacidos de la Bruma (Era 2),Scadrial,4
-Dominio,1,El metal perdido,Dominio,5,true,1.0296194171811581,Nacidos de la Bruma (Era 2),Scadrial,4
-Kalak,1,Palabras radiantes,Kalak,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,2
-Nale,1,Palabras radiantes,Nale,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,2
-Treno,1,TOTAL,Treno,1,false,,,,
-Bjendal,1,TOTAL,Bjendal,1,false,,,,
-Yolen,1,TOTAL,Yolen,1,false,,,,
-Sisirinah,1,TOTAL,Sisirinah,1,false,,,,
-Devoción,1,TOTAL,Devoción,1,false,,,,
-Mythos,1,TOTAL,Mythos,1,false,,,,
-Dotación,1,TOTAL,Dotación,1,false,,,,
-Obrodai,1,TOTAL,Obrodai,1,false,,,,
-Cuna,1,TOTAL,Cuna,1,false,,,,
-Teoría Realmática,1,El Ritmo de la Guerra,Teoría Realmática,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,4
-Themos Tresting,1,El Imperio Final,Themos Tresting,1,false,2.6390573296152584,Nacidos de la Bruma (Era 1),Scadrial,1
-Esquirla del Amanecer,1,El camino de los reyes,Esquirla del Amanecer,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,1
-Edwarn Ladrian,1,Brazales de duelo,Edwarn Ladrian,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,3
-Edgard Ladrian,1,Sombras de identidad,Edgard Ladrian,1,false,2.6390573296152584,Nacidos de la Bruma (Era 2),Scadrial,2
-Allrianne Cett,1,El Heroe de las Eras,Allrianne Cett,2,false,1.9459101490553132,Nacidos de la Bruma (Era 1),Scadrial,3
-Edgard Ladrian,1,TOTAL,Edgard Ladrian,1,false,,,,
-Teoría Realmática,1,TOTAL,Teoría Realmática,1,false,,,,
-Themos Tresting,1,TOTAL,Themos Tresting,1,false,,,,
-Esquirla del Amanecer,1,TOTAL,Esquirla del Amanecer,1,false,,,,
+Termino,Repeticiones,Libro_Origen,Palabra,Num_Libros_Con_Termino,Es_Global,TFIDF_like,Saga,Mundo,Orden_Publicacion,Anio_Publicacion
+Kaladin,9025,TOTAL,Kaladin,4,true,,,,,
+Dalinar,7351,TOTAL,Dalinar,5,true,,,,,
+Vin,6047,TOTAL,Vin,6,true,,,,,
+Shallan,5554,TOTAL,Shallan,4,true,,,,,
+Adolin,4350,TOTAL,Adolin,4,true,,,,,
+Elend,4202,TOTAL,Elend,6,true,,,,,
+Wax,3838,TOTAL,Wax,4,true,,,,,
+Dalinar,3021,Juramentada,Dalinar,5,true,3110.4802593042787,El Archivo de las Tormentas,Roshar,3,2017
+Wayne,2956,TOTAL,Wayne,4,true,,,,,
+Kelsier,2804,TOTAL,Kelsier,7,true,,,,,
+Navani,2775,TOTAL,Navani,4,true,,,,,
+Marasi,2618,TOTAL,Marasi,4,true,,,,,
+Sazed,2534,TOTAL,Sazed,5,true,,,,,
+Kaladin,2525,El camino de los reyes,Kaladin,4,true,3163.226495450804,El Archivo de las Tormentas,Roshar,1,2010
+Kaladin,2392,El Ritmo de la Guerra,Kaladin,4,true,2996.6090206409203,El Archivo de las Tormentas,Roshar,4,2020
+Kaladin,2292,Palabras radiantes,Kaladin,4,true,2871.3327237913836,El Archivo de las Tormentas,Roshar,2,2014
+Vin,2291,El Pozo de la Ascension,Vin,6,true,1941.1593981470837,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Shallan,2286,Palabras radiantes,Shallan,4,true,2863.8161459804114,El Archivo de las Tormentas,Roshar,2,2014
+Vin,2258,El Imperio Final,Vin,6,true,1913.1985687543058,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Kelsier,2170,El Imperio Final,Kelsier,7,true,1504.1293818150812,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Elend,2166,El Pozo de la Ascension,Elend,6,true,1835.247165598683,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Jasnah,2074,TOTAL,Jasnah,4,true,,,,,
+Kaladin,1816,Juramentada,Kaladin,4,true,2275.0175507875883,El Archivo de las Tormentas,Roshar,3,2017
+Dalinar,1733,El camino de los reyes,Dalinar,5,true,1784.330449974947,El Archivo de las Tormentas,Roshar,1,2010
+Navani,1613,El Ritmo de la Guerra,Navani,4,true,2020.7066681830286,El Archivo de las Tormentas,Roshar,4,2020
+Venli,1601,TOTAL,Venli,3,true,,,,,
+Elend,1543,El Heroe de las Eras,Elend,6,true,1307.3805985774552,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Shallan,1513,Juramentada,Shallan,4,true,1895.4303713334918,El Archivo de las Tormentas,Roshar,3,2017
+Vin,1484,El Heroe de las Eras,Vin,6,true,1257.3900248146103,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Dalinar,1390,Palabras radiantes,Dalinar,5,true,1431.1709898818099,El Archivo de las Tormentas,Roshar,2,2014
+Luz tormentosa,1360,TOTAL,Luz tormentosa,5,true,,,,,
+Syl,1358,TOTAL,Syl,5,true,,,,,
+Wax,1341,El metal perdido,Wax,4,true,1679.9551407522886,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Sadeas,1322,TOTAL,Sadeas,4,true,,,,,
+Adolin,1301,Palabras radiantes,Adolin,4,true,1629.8446220124738,El Archivo de las Tormentas,Roshar,2,2014
+Venli,1292,El Ritmo de la Guerra,Venli,3,true,1990.2549929037166,El Archivo de las Tormentas,Roshar,4,2020
+Dalinar,1206,El Ritmo de la Guerra,Dalinar,5,true,1241.7210171204767,El Archivo de las Tormentas,Roshar,4,2020
+Adolin,1195,El Ritmo de la Guerra,Adolin,4,true,1497.0517473519649,El Archivo de las Tormentas,Roshar,4,2020
+Esfera,1175,TOTAL,Esfera,11,true,,,,,
+Wax,1140,Brazales de duelo,Wax,4,true,1428.1497840847196,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Adolin,1137,Juramentada,Adolin,4,true,1424.3914951792335,El Archivo de las Tormentas,Roshar,3,2017
+Marasi,1133,El metal perdido,Marasi,4,true,1419.380443305252,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Lift,1132,TOTAL,Lift,4,true,,,,,
+Wayne,1101,El metal perdido,Wayne,4,true,1379.2920283134001,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Fantasma,1092,TOTAL,Fantasma,5,true,,,,,
+Sazed,1071,El Pozo de la Ascension,Sazed,5,true,1102.7223958010204,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Teft,1060,TOTAL,Teft,5,true,,,,,
+Wax,1047,Sombras de identidad,Wax,4,true,1311.6428280146504,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Steris,1020,TOTAL,Steris,4,true,,,,,
+Shallan,949,El Ritmo de la Guerra,Shallan,4,true,1188.8720571021042,El Archivo de las Tormentas,Roshar,4,2020
+Szeth,948,TOTAL,Szeth,5,true,,,,,
+Sazed,909,El Heroe de las Eras,Sazed,5,true,935.9240502176727,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Moash,899,TOTAL,Moash,4,true,,,,,
+Fantasma,833,El Heroe de las Eras,Fantasma,5,true,857.6729745119047,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Vivenna,810,TOTAL,Vivenna,3,true,,,,,
+Vivenna,806,El aliento de los dioses,Vivenna,3,true,1241.598703003402,El aliento de los dioses,Nalthis,1,2009
+Shallan,806,El camino de los reyes,Shallan,4,true,1009.7269526072666,El Archivo de las Tormentas,Roshar,1,2010
+Renarin,759,TOTAL,Renarin,4,true,,,,,
+Lift,755,Danzante del Filo,Lift,4,true,945.8360412140029,,,,
+Taravangian,747,TOTAL,Taravangian,4,true,,,,,
+Aliento,735,TOTAL,Aliento,13,true,,,,,
+Elhokar,733,TOTAL,Elhokar,4,true,,,,,
+Sondeluz,720,El aliento de los dioses,Sondeluz,1,false,1900.121277322986,El aliento de los dioses,Nalthis,1,2009
+Sondeluz,720,TOTAL,Sondeluz,1,false,,,,,
+Adolin,717,El camino de los reyes,Adolin,4,true,898.2310484111789,El Archivo de las Tormentas,Roshar,1,2010
+Jasnah,709,El camino de los reyes,Jasnah,4,true,888.2089446632159,El Archivo de las Tormentas,Roshar,1,2010
+Sadeas,703,El camino de los reyes,Sadeas,4,true,880.6923668522437,El Archivo de las Tormentas,Roshar,1,2010
+Amaram,700,TOTAL,Amaram,4,true,,,,,
+Eshonai,697,TOTAL,Eshonai,4,true,,,,,
+Wayne,690,Aleacion de Ley,Wayne,4,true,864.4064482618039,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Marasi,676,Brazales de duelo,Marasi,4,true,846.8677667028688,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Marsh,667,TOTAL,Marsh,5,true,,,,,
+Wayne,654,Brazales de duelo,Wayne,4,true,819.3069813959708,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Siri,628,El aliento de los dioses,Siri,1,false,1657.3280029983823,El aliento de los dioses,Nalthis,1,2009
+Siri,628,TOTAL,Siri,1,false,,,,,
+Straff,624,TOTAL,Straff,3,true,,,,,
+Navani,615,Juramentada,Navani,4,true,770.4492256246514,El Archivo de las Tormentas,Roshar,3,2017
+Ruina,609,TOTAL,Ruina,8,true,,,,,
+Odium,605,TOTAL,Odium,5,true,,,,,
+Vasher,586,TOTAL,Vasher,3,true,,,,,
+Vasher,577,El aliento de los dioses,Vasher,3,true,888.836788626505,El aliento de los dioses,Nalthis,1,2009
+Straff,570,El Pozo de la Ascension,Straff,3,true,878.053673339875,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Dockson,564,TOTAL,Dockson,3,true,,,,,
+Denth,555,El aliento de los dioses,Denth,1,false,1464.6768179364685,El aliento de los dioses,Nalthis,1,2009
+Denth,555,TOTAL,Denth,1,false,,,,,
+Gavilar,550,TOTAL,Gavilar,4,true,,,,,
+Alomancia,533,TOTAL,Alomancia,9,true,,,,,
+Sazed,529,El Imperio Final,Sazed,5,true,544.6686716888327,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Zane,528,TOTAL,Zane,2,false,,,,,
+Lirin,523,TOTAL,Lirin,4,true,,,,,
+Wayne,511,Sombras de identidad,Wayne,4,true,640.161876901133,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Ruina,509,El Heroe de las Eras,Ruina,8,true,284.84443605913015,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Syl,500,El Ritmo de la Guerra,Syl,5,true,514.809708590579,El Archivo de las Tormentas,Roshar,4,2020
+Jasnah,492,Palabras radiantes,Jasnah,4,true,616.359380499721,El Archivo de las Tormentas,Roshar,2,2014
+Elend,486,El Imperio Final,Elend,6,true,411.786760148181,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Zane,485,El Pozo de la Ascension,Zane,2,false,943.7664222918269,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+TenSoon,483,TOTAL,TenSoon,6,true,,,,,
+MeLaan,483,TOTAL,MeLaan,4,true,,,,,
+Luz tormentosa,480,El Ritmo de la Guerra,Luz tormentosa,5,true,494.2173202469559,El Archivo de las Tormentas,Roshar,4,2020
+Marasi,475,Sombras de identidad,Marasi,4,true,595.0624100352999,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Armonía,475,TOTAL,Armonía,5,true,,,,,
+Jasnah,465,Juramentada,Jasnah,4,true,582.5347803503462,El Archivo de las Tormentas,Roshar,3,2017
+Rlain,459,TOTAL,Rlain,3,true,,,,,
+Steris,425,Brazales de duelo,Steris,4,true,532.4242616105314,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Jasnah,408,El Ritmo de la Guerra,Jasnah,4,true,511.12729114611017,El Archivo de las Tormentas,Roshar,4,2020
+Teft,404,El camino de los reyes,Teft,5,true,415.9662445411879,El Archivo de las Tormentas,Roshar,1,2010
+Luz tormentosa,404,Juramentada,Luz tormentosa,5,true,415.9662445411879,El Archivo de las Tormentas,Roshar,3,2017
+Aliento,402,El aliento de los dioses,Aliento,13,true,29.791404805796176,El aliento de los dioses,Nalthis,1,2009
+Odium,389,El Ritmo de la Guerra,Odium,5,true,400.5219532834705,El Archivo de las Tormentas,Roshar,4,2020
+Dockson,386,El Imperio Final,Dockson,3,true,594.6117858055995,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Lopen,385,TOTAL,Lopen,5,true,,,,,
+Eshonai,380,El Ritmo de la Guerra,Eshonai,4,true,476.04992802823983,El Archivo de las Tormentas,Roshar,4,2020
+Rlain,375,El Ritmo de la Guerra,Rlain,3,true,577.666890355181,El Archivo de las Tormentas,Roshar,4,2020
+Sigzil,366,TOTAL,Sigzil,4,true,,,,,
+Teft,365,El Ritmo de la Guerra,Teft,5,true,375.8110872711227,El Archivo de las Tormentas,Roshar,4,2020
+Gaz,365,TOTAL,Gaz,4,true,,,,,
+Steris,361,El metal perdido,Steris,4,true,452.24743162682785,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+TenSoon,352,El Heroe de las Eras,TenSoon,6,true,298.2488468562957,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Mraize,352,TOTAL,Mraize,3,true,,,,,
+Taravangian,347,El Ritmo de la Guerra,Taravangian,4,true,434.7087500678927,El Archivo de las Tormentas,Roshar,4,2020
+Sadeas,345,Palabras radiantes,Sadeas,4,true,432.20322413090196,El Archivo de las Tormentas,Roshar,2,2014
+Syl,341,Juramentada,Syl,5,true,351.1002212587749,El Archivo de las Tormentas,Roshar,3,2017
+Marasi,334,Aleacion de Ley,Marasi,4,true,418.4228314774529,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Moash,332,Palabras radiantes,Moash,4,true,415.91730554046217,El Archivo de las Tormentas,Roshar,2,2014
+Navani,330,Palabras radiantes,Navani,4,true,413.4117796034715,El Archivo de las Tormentas,Roshar,2,2014
+Szeth,329,El camino de los reyes,Szeth,5,true,338.74478825260104,El Archivo de las Tormentas,Roshar,1,2010
+Lirin,320,El Ritmo de la Guerra,Lirin,4,true,400.8841499185178,El Archivo de las Tormentas,Roshar,4,2020
+Wax,310,Aleacion de Ley,Wax,4,true,388.3565202335641,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Amaram,307,Palabras radiantes,Amaram,4,true,384.598231328078,El Archivo de las Tormentas,Roshar,2,2014
+Honor,300,TOTAL,Honor,6,true,,,,,
+Syl,299,Palabras radiantes,Syl,5,true,307.8562057371663,El Archivo de las Tormentas,Roshar,2,2014
+Kelsier,298,El Heroe de las Eras,Kelsier,7,true,206.5578598068637,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Elhokar,298,Juramentada,Elhokar,4,true,373.3233646116197,El Archivo de las Tormentas,Roshar,3,2017
+Renarin,284,Juramentada,Renarin,4,true,355.7846830526845,El Archivo de las Tormentas,Roshar,3,2017
+Marsh,282,El Heroe de las Eras,Marsh,5,true,290.3526756450866,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Roshar,280,TOTAL,Roshar,8,true,,,,,
+Szeth,276,Juramentada,Szeth,5,true,284.17495914199964,El Archivo de las Tormentas,Roshar,3,2017
+Elhokar,273,El camino de los reyes,Elhokar,4,true,342.00429039923546,El Archivo de las Tormentas,Roshar,1,2010
+Luz tormentosa,266,Palabras radiantes,Luz tormentosa,5,true,273.87876497018806,El Archivo de las Tormentas,Roshar,2,2014
+Kelsier,261,El Pozo de la Ascension,Kelsier,7,true,180.91141412614573,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Eshonai,258,Palabras radiantes,Eshonai,4,true,323.212845871805,El Archivo de las Tormentas,Roshar,2,2014
+Cikatriz,254,TOTAL,Cikatriz,5,true,,,,,
+Taravangian,249,Juramentada,Taravangian,4,true,311.9379791553466,El Archivo de las Tormentas,Roshar,3,2017
+Moash,245,Juramentada,Moash,4,true,306.9269272813652,El Archivo de las Tormentas,Roshar,3,2017
+Gaz,243,El camino de los reyes,Gaz,4,true,304.42140134437443,El Archivo de las Tormentas,Roshar,1,2010
+Fen,242,TOTAL,Fen,3,true,,,,,
+Gavilar,237,Juramentada,Gavilar,4,true,296.90482353340224,El Archivo de las Tormentas,Roshar,3,2017
+Llarimar,232,El aliento de los dioses,Llarimar,1,false,612.2613004707399,El aliento de los dioses,Nalthis,1,2009
+Llarimar,232,TOTAL,Llarimar,1,false,,,,,
+Sadeas,228,Juramentada,Sadeas,4,true,285.62995681694395,El Archivo de las Tormentas,Roshar,3,2017
+Amaram,227,Juramentada,Amaram,4,true,284.37719384844854,El Archivo de las Tormentas,Roshar,3,2017
+Mraize,224,El Ritmo de la Guerra,Mraize,3,true,345.05968917216137,El Archivo de las Tormentas,Roshar,4,2020
+Marsh,223,El Imperio Final,Marsh,5,true,229.60513003139826,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Venli,223,Juramentada,Venli,3,true,343.51924413121424,El Archivo de las Tormentas,Roshar,3,2017
+Armonía,220,El metal perdido,Armonía,5,true,226.51627177985478,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Esfera,219,El camino de los reyes,Esfera,11,true,52.81449044289848,El Archivo de las Tormentas,Roshar,1,2010
+Navani,217,El camino de los reyes,Navani,4,true,271.84956416349485,El Archivo de las Tormentas,Roshar,1,2010
+Syl,216,El camino de los reyes,Syl,5,true,222.39779411113017,El Archivo de las Tormentas,Roshar,1,2010
+MeLaan,214,Brazales de duelo,MeLaan,4,true,268.09127525800875,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Renarin,209,Palabras radiantes,Renarin,4,true,261.8274604155319,El Archivo de las Tormentas,Roshar,2,2014
+Fen,208,Juramentada,Fen,3,true,320.412568517007,El Archivo de las Tormentas,Roshar,3,2017
+Odium,204,Juramentada,Odium,5,true,210.04236110495626,El Archivo de las Tormentas,Roshar,3,2017
+Encendedora,203,El aliento de los dioses,Encendedora,1,false,535.7286379118974,El aliento de los dioses,Nalthis,1,2009
+Encendedora,203,TOTAL,Encendedora,1,false,,,,,
+Szeth,201,El Ritmo de la Guerra,Szeth,5,true,206.95350285341277,El Archivo de las Tormentas,Roshar,4,2020
+Luz tormentosa,196,El camino de los reyes,Luz tormentosa,5,true,201.80540576750698,El Archivo de las Tormentas,Roshar,1,2010
+Dabbid,193,TOTAL,Dabbid,4,true,,,,,
+Esfera,192,Palabras radiantes,Esfera,11,true,46.3031149088425,El Archivo de las Tormentas,Roshar,2,2014
+Ranette,192,TOTAL,Ranette,4,true,,,,,
+Fantasma,191,El Pozo de la Ascension,Fantasma,5,true,196.6573086816012,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+MeLaan,184,Sombras de identidad,MeLaan,4,true,230.50838620314772,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Moash,173,El camino de los reyes,Moash,4,true,216.72799354969868,El Archivo de las Tormentas,Roshar,1,2010
+Dockson,171,El Pozo de la Ascension,Dockson,3,true,263.4161020019625,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Susebron,170,El aliento de los dioses,Susebron,1,false,448.63974603459394,El aliento de los dioses,Nalthis,1,2009
+Susebron,170,TOTAL,Susebron,1,false,,,,,
+Lirin,164,El camino de los reyes,Lirin,4,true,205.45312683324036,El Archivo de las Tormentas,Roshar,1,2010
+Esfera,157,Juramentada,Esfera,11,true,37.862442920251425,El Archivo de las Tormentas,Roshar,3,2017
+Renarin,157,El camino de los reyes,Renarin,4,true,196.6837860537728,El Archivo de las Tormentas,Roshar,1,2010
+Dedos Azules,156,El aliento de los dioses,Dedos Azules,1,false,411.69294341998034,El aliento de los dioses,Nalthis,1,2009
+Dedos Azules,156,TOTAL,Dedos Azules,1,false,,,,,
+Lift,151,El Ritmo de la Guerra,Lift,4,true,189.16720824280057,El Archivo de las Tormentas,Roshar,4,2020
+Moash,149,El Ritmo de la Guerra,Moash,4,true,186.66168230580985,El Archivo de las Tormentas,Roshar,4,2020
+Conservación,149,TOTAL,Conservación,7,true,,,,,
+Dabbid,148,El Ritmo de la Guerra,Dabbid,4,true,185.40891933731447,El Archivo de las Tormentas,Roshar,4,2020
+Alomancia,147,El Imperio Final,Alomancia,9,true,64.94941458501877,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Marsh,147,El Pozo de la Ascension,Marsh,5,true,151.35405432563024,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Honor,147,El Ritmo de la Guerra,Honor,6,true,124.55278547691894,El Archivo de las Tormentas,Roshar,4,2020
+Teft,144,Juramentada,Teft,5,true,148.26519607408676,El Archivo de las Tormentas,Roshar,3,2017
+Teft,144,Palabras radiantes,Teft,5,true,148.26519607408676,El Archivo de las Tormentas,Roshar,2,2014
+Szeth,141,Palabras radiantes,Szeth,5,true,145.1763378225433,El Archivo de las Tormentas,Roshar,2,2014
+Lift,140,Palabras radiantes,Lift,4,true,175.38681558935153,El Archivo de las Tormentas,Roshar,2,2014
+Amaram,139,El camino de los reyes,Amaram,4,true,174.13405262085615,El Archivo de las Tormentas,Roshar,1,2010
+Armonía,139,Sombras de identidad,Armonía,5,true,143.11709898818097,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Lunamor,138,Juramentada,Lunamor,1,false,364.18991148690566,El Archivo de las Tormentas,Roshar,3,2017
+Lunamor,138,TOTAL,Lunamor,1,false,,,,,
+Sangre Espectral,136,TOTAL,Sangre Espectral,5,true,,,,,
+Gavilar,132,El camino de los reyes,Gavilar,4,true,165.36471184138858,El Archivo de las Tormentas,Roshar,1,2010
+Hesina,132,TOTAL,Hesina,3,true,,,,,
+Yalb,132,TOTAL,Yalb,4,true,,,,,
+Dominio,131,TOTAL,Dominio,5,true,,,,,
+Lopen,130,El camino de los reyes,Lopen,5,true,133.85052423355054,El Archivo de las Tormentas,Roshar,1,2010
+Fatren,129,El Heroe de las Eras,Fatren,1,false,340.4383955203683,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Fatren,129,TOTAL,Fatren,1,false,,,,,
+Steris,127,Sombras de identidad,Steris,4,true,159.10089699891174,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Alomancia,126,El Heroe de las Eras,Alomancia,9,true,55.67092678715894,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Esfera,125,El Ritmo de la Guerra,Esfera,11,true,30.145257102111007,El Archivo de las Tormentas,Roshar,4,2020
+Elhokar,124,Palabras radiantes,Elhokar,4,true,155.34260809342564,El Archivo de las Tormentas,Roshar,2,2014
+Lopen,124,Palabras radiantes,Lopen,5,true,127.6728077304636,El Archivo de las Tormentas,Roshar,2,2014
+Sangre Nocturna,124,TOTAL,Sangre Nocturna,2,false,,,,,
+Cikatriz,122,Juramentada,Cikatriz,5,true,125.61356889610128,El Archivo de las Tormentas,Roshar,3,2017
+Gavilar,120,El Ritmo de la Guerra,Gavilar,4,true,150.33155621944417,El Archivo de las Tormentas,Roshar,4,2020
+Hoid,120,TOTAL,Hoid,9,true,,,,,
+Sangre Nocturna,120,El aliento de los dioses,Sangre Nocturna,2,false,233.5092178866376,El aliento de los dioses,Nalthis,1,2009
+Sigzil,117,Palabras radiantes,Sigzil,4,true,146.57326731395807,El Archivo de las Tormentas,Roshar,2,2014
+Honor,115,Juramentada,Honor,6,true,97.43925394452842,El Archivo de las Tormentas,Roshar,3,2017
+Conservación,111,El Heroe de las Eras,Conservación,7,true,76.93933704215392,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Taravangian,111,Palabras radiantes,Taravangian,4,true,139.05668950298585,El Archivo de las Tormentas,Roshar,2,2014
+Renarin,109,El Ritmo de la Guerra,Renarin,4,true,136.55116356599513,El Archivo de las Tormentas,Roshar,4,2020
+Dor,109,TOTAL,Dor,3,true,,,,,
+Roshar,108,El Ritmo de la Guerra,Roshar,8,true,60.43850509702565,El Archivo de las Tormentas,Roshar,4,2020
+Lopen,108,Juramentada,Lopen,5,true,111.19889705556508,El Archivo de las Tormentas,Roshar,3,2017
+Steris,107,Aleacion de Ley,Steris,4,true,134.04563762900437,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Cenn,105,El camino de los reyes,Cenn,1,false,277.10101960960213,El Archivo de las Tormentas,Roshar,1,2010
+Esfera,105,El Ritmo de la Guerra,Esfera,11,true,25.322015965773243,El Archivo de las Tormentas,Roshar,4,2020
+Investidura,105,TOTAL,Investidura,9,true,,,,,
+Cenn,105,TOTAL,Cenn,1,false,,,,,
+Humano,101,TOTAL,Humano,8,true,,,,,
+Dor,100,Esquirla del Amanecer,Dor,3,true,154.0445040947149,,,,
+Roshar,100,Juramentada,Roshar,8,true,55.961578793542266,El Archivo de las Tormentas,Roshar,3,2017
+Esfera,99,Palabras radiantes,Esfera,11,true,23.875043624871918,El Archivo de las Tormentas,Roshar,2,2014
+Autonomía,96,El metal perdido,Autonomía,1,false,253.3495036430648,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Autonomía,96,TOTAL,Autonomía,1,false,,,,,
+Cosmere,95,TOTAL,Cosmere,10,true,,,,,
+Hesina,94,El Ritmo de la Guerra,Hesina,3,true,144.80183384903202,El Archivo de las Tormentas,Roshar,4,2020
+Sigzil,94,El camino de los reyes,Sigzil,4,true,117.7597190385646,El Archivo de las Tormentas,Roshar,1,2010
+Alomancia,91,El Pozo de la Ascension,Alomancia,9,true,40.20678045739257,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Aliento,90,El aliento de los dioses,Aliento,13,true,6.669717493834965,El aliento de los dioses,Nalthis,1,2009
+Esfera,88,El camino de los reyes,Esfera,11,true,21.22226099988615,El Archivo de las Tormentas,Roshar,1,2010
+Lift,86,Juramentada,Lift,4,true,107.73761529060165,El Archivo de las Tormentas,Roshar,3,2017
+Venli,86,Palabras radiantes,Venli,3,true,132.4782735214548,El Archivo de las Tormentas,Roshar,2,2014
+Armonía,81,Brazales de duelo,Armonía,5,true,83.3991727916738,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Sigzil,79,El Ritmo de la Guerra,Sigzil,4,true,98.96827451113407,El Archivo de las Tormentas,Roshar,4,2020
+Yanagawn,78,TOTAL,Yanagawn,3,true,,,,,
+Sigzil,76,Juramentada,Sigzil,4,true,95.20998560564797,El Archivo de las Tormentas,Roshar,3,2017
+Mraize,76,Palabras radiantes,Mraize,3,true,117.07382311198333,El Archivo de las Tormentas,Roshar,2,2014
+Cikatriz,76,El camino de los reyes,Cikatriz,5,true,78.25107570576802,El Archivo de las Tormentas,Roshar,1,2010
+Ranette,75,Aleacion de Ley,Ranette,4,true,93.9572226371526,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+TenSoon,72,Sombras de identidad,TenSoon,6,true,61.00544594787866,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Nale,72,TOTAL,Nale,4,true,,,,,
+Humano,71,El Heroe de las Eras,Humano,8,true,39.73272094341501,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Esfera,69,Juramentada,Esfera,11,true,16.640181920365276,El Archivo de las Tormentas,Roshar,3,2017
+Kelsier,68,El metal perdido,Kelsier,7,true,47.13400827807628,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Sangre Espectral,67,El Ritmo de la Guerra,Sangre Espectral,5,true,68.98450095113759,El Archivo de las Tormentas,Roshar,4,2020
+Yalb,64,El camino de los reyes,Yalb,4,true,80.17682998370356,El Archivo de las Tormentas,Roshar,1,2010
+Palona,64,TOTAL,Palona,3,true,,,,,
+Gaz,62,Palabras radiantes,Gaz,4,true,77.67130404671282,El Archivo de las Tormentas,Roshar,2,2014
+Fantasma,62,El Imperio Final,Fantasma,5,true,63.8364038652318,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Gavilar,61,Palabras radiantes,Gavilar,4,true,76.41854107821746,El Archivo de las Tormentas,Roshar,2,2014
+Astilla,61,TOTAL,Astilla,10,true,,,,,
+Ym,60,Palabras radiantes,Ym,1,false,158.34343977691552,El Archivo de las Tormentas,Roshar,2,2014
+Ym,60,TOTAL,Ym,1,false,,,,,
+Ranette,59,El metal perdido,Ranette,4,true,73.91301514122671,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Eshonai,58,Juramentada,Eshonai,4,true,72.66025217273135,El Archivo de las Tormentas,Roshar,3,2017
+Cultivación,57,TOTAL,Cultivación,5,true,,,,,
+Dominio,56,El Pozo de la Ascension,Dominio,5,true,57.65868736214485,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Yanagawn,55,Juramentada,Yanagawn,3,true,84.7244772520932,El Archivo de las Tormentas,Roshar,3,2017
+Dominio,54,El Heroe de las Eras,Dominio,5,true,55.59944852778254,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Mraize,52,Juramentada,Mraize,3,true,80.10314212925175,El Archivo de las Tormentas,Roshar,3,2017
+MeLaan,50,El metal perdido,MeLaan,4,true,62.6381484247684,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Mennis,50,El Imperio Final,Mennis,1,false,131.9528664807629,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Mennis,50,TOTAL,Mennis,1,false,,,,,
+Rlain,49,Juramentada,Rlain,3,true,75.4818070064103,El Archivo de las Tormentas,Roshar,3,2017
+Nale,49,El Ritmo de la Guerra,Nale,4,true,61.385385456273035,El Archivo de las Tormentas,Roshar,4,2020
+Aliento,49,Juramentada,Aliento,13,true,3.6312906355323697,El Archivo de las Tormentas,Roshar,3,2017
+Alomancia,48,Brazales de duelo,Alomancia,9,true,21.207972109393882,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Perpendicularidad,48,TOTAL,Perpendicularidad,3,true,,,,,
+Hauka,47,Danzante del Filo,Hauka,1,false,124.03569449191714,,,,
+Adin,47,El Ritmo de la Guerra,Adin,1,false,124.03569449191714,El Archivo de las Tormentas,Roshar,4,2020
+Hauka,47,TOTAL,Hauka,1,false,,,,,
+Adin,47,TOTAL,Adin,1,false,,,,,
+Sadeas,46,El Ritmo de la Guerra,Sadeas,4,true,57.62709655078693,El Archivo de las Tormentas,Roshar,4,2020
+Lasca,46,TOTAL,Lasca,10,true,,,,,
+Esfera,45,Danzante del Filo,Esfera,11,true,10.852292556759961,,,,
+Scadrial,45,TOTAL,Scadrial,6,true,,,,,
+Roshar,44,El camino de los reyes,Roshar,8,true,24.623094669158597,El Archivo de las Tormentas,Roshar,1,2010
+Cikatriz,44,Palabras radiantes,Cikatriz,5,true,45.30325435597096,El Archivo de las Tormentas,Roshar,2,2014
+Conexión,44,TOTAL,Conexión,4,true,,,,,
+Chiri-Chiri,44,TOTAL,Chiri-Chiri,2,false,,,,,
+Zane,43,El Heroe de las Eras,Zane,2,false,83.67413640937846,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Gaz,43,Juramentada,Gaz,4,true,53.868807645300826,El Archivo de las Tormentas,Roshar,3,2017
+Eje,43,TOTAL,Eje,9,true,,,,,
+Alomancia,42,Aleacion de Ley,Alomancia,9,true,18.55697559571965,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Alomancia,41,Sombras de identidad,Alomancia,9,true,18.11514284344061,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Taravangian,40,El camino de los reyes,Taravangian,4,true,50.11051873981472,El Archivo de las Tormentas,Roshar,1,2010
+Cultivación,40,El Ritmo de la Guerra,Cultivación,5,true,41.18477668724633,El Archivo de las Tormentas,Roshar,4,2020
+Elhokar,38,El Ritmo de la Guerra,Elhokar,4,true,47.604992802823986,El Archivo de las Tormentas,Roshar,4,2020
+Hoid,38,El camino de los reyes,Hoid,9,true,16.78964458660349,El Archivo de las Tormentas,Roshar,1,2010
+Lirin,38,Juramentada,Lirin,4,true,47.604992802823986,El Archivo de las Tormentas,Roshar,3,2017
+Aliento,38,Palabras radiantes,Aliento,13,true,2.8161029418414296,El Archivo de las Tormentas,Roshar,2,2014
+Kar,37,El Imperio Final,Kar,1,false,97.64512119576456,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Cántico,37,TOTAL,Cántico,6,true,,,,,
+Kar,37,TOTAL,Kar,1,false,,,,,
+Aliento,36,El Ritmo de la Guerra,Aliento,13,true,2.6678869975339863,El Archivo de las Tormentas,Roshar,4,2020
+Palona,36,Juramentada,Palona,3,true,55.45602147409737,El Archivo de las Tormentas,Roshar,3,2017
+Potenciación,36,TOTAL,Potenciación,4,true,,,,,
+Dabbid,35,El camino de los reyes,Dabbid,4,true,43.84670389733788,El Archivo de las Tormentas,Roshar,1,2010
+Alomancia,35,El metal perdido,Alomancia,9,true,15.464146329766374,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Rlain,35,Palabras radiantes,Rlain,3,true,53.915576433150214,El Archivo de las Tormentas,Roshar,2,2014
+MeLaan,35,El Heroe de las Eras,MeLaan,4,true,43.84670389733788,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Kaza,35,Juramentada,Kaza,1,false,92.36700653653405,El Archivo de las Tormentas,Roshar,3,2017
+Yalb,35,Palabras radiantes,Yalb,4,true,43.84670389733788,El Archivo de las Tormentas,Roshar,2,2014
+Kaza,35,TOTAL,Kaza,1,false,,,,,
+Lhan,35,TOTAL,Lhan,2,false,,,,,
+Ruina,34,El metal perdido,Ruina,8,true,19.02693678980437,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Armonía,34,Aleacion de Ley,Armonía,5,true,35.00706018415938,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Ranette,34,Brazales de duelo,Ranette,4,true,42.593940928842514,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Dedelin,34,El aliento de los dioses,Dedelin,1,false,89.72794920691878,El aliento de los dioses,Nalthis,1,2009
+Lhan,34,Palabras radiantes,Lhan,2,false,66.16094506788065,El Archivo de las Tormentas,Roshar,2,2014
+Dedelin,34,TOTAL,Dedelin,1,false,,,,,
+Cosmere,32,El metal perdido,Cosmere,10,true,10.76711157187881,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Irich,32,Brazales de duelo,Irich,1,false,84.44983454768827,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Straff,32,El Heroe de las Eras,Straff,3,true,49.29424131030877,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Irich,32,TOTAL,Irich,1,false,,,,,
+Kalak,32,TOTAL,Kalak,4,true,,,,,
+Yalb,31,Esquirla del Amanecer,Yalb,4,true,38.83565202335641,,,,
+Ruina,31,Sombras de identidad,Ruina,8,true,17.348089425998104,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Investidura,30,El metal perdido,Investidura,9,true,13.254982568371178,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Conexión,30,El Ritmo de la Guerra,Conexión,4,true,37.58288905486104,El Archivo de las Tormentas,Roshar,4,2020
+Ishikk,29,El camino de los reyes,Ishikk,1,false,76.53266255884249,El Archivo de las Tormentas,Roshar,1,2010
+Jordis,29,Brazales de duelo,Jordis,1,false,76.53266255884249,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Wellen,29,TOTAL,Wellen,2,false,,,,,
+Jordis,29,TOTAL,Jordis,1,false,,,,,
+Ishikk,29,TOTAL,Ishikk,1,false,,,,,
+Sangre Espectral,29,Palabras radiantes,Sangre Espectral,5,true,29.858963098253586,El Archivo de las Tormentas,Roshar,2,2014
+Hesina,28,El camino de los reyes,Hesina,3,true,43.13246114652017,El Archivo de las Tormentas,Roshar,1,2010
+Perpendicularidad,28,El Ritmo de la Guerra,Perpendicularidad,3,true,43.13246114652017,El Archivo de las Tormentas,Roshar,4,2020
+TenSoon,27,El Pozo de la Ascension,TenSoon,6,true,22.8770422304545,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Amaram,27,El Ritmo de la Guerra,Amaram,4,true,33.82460014937494,El Archivo de las Tormentas,Roshar,4,2020
+Aliento,27,El camino de los reyes,Aliento,13,true,2.0009152481504895,El Archivo de las Tormentas,Roshar,1,2010
+Fen,27,El Ritmo de la Guerra,Fen,3,true,41.59201610557302,El Archivo de las Tormentas,Roshar,4,2020
+Investidura,26,El Ritmo de la Guerra,Investidura,9,true,11.48765155925502,El Archivo de las Tormentas,Roshar,4,2020
+Honor,26,Palabras radiantes,Honor,6,true,22.029744370067295,El Archivo de las Tormentas,Roshar,2,2014
+Hoid,26,El Imperio Final,Hoid,9,true,11.48765155925502,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Palona,26,Palabras radiantes,Palona,3,true,40.051571064625875,El Archivo de las Tormentas,Roshar,2,2014
+Axies,26,TOTAL,Axies,4,true,,,,,
+Hoid,25,El metal perdido,Hoid,9,true,11.04581880697598,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+TenSoon,24,El metal perdido,TenSoon,6,true,20.33514864929289,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Ranette,24,Sombras de identidad,Ranette,4,true,30.066311243888833,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Hoid,24,El aliento de los dioses,Hoid,9,true,10.603986054696941,El aliento de los dioses,Nalthis,1,2009
+Sangre Espectral,24,Juramentada,Sangre Espectral,5,true,24.710866012347793,El Archivo de las Tormentas,Roshar,3,2017
+Chiri-Chiri,24,Juramentada,Chiri-Chiri,2,false,46.701843577327516,El Archivo de las Tormentas,Roshar,3,2017
+Kalak,23,El camino de los reyes,Kalak,4,true,28.813548275393465,El Archivo de las Tormentas,Roshar,1,2010
+Scadrial,23,El metal perdido,Scadrial,6,true,19.487850788905686,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Axies,23,El camino de los reyes,Axies,4,true,28.813548275393465,El Archivo de las Tormentas,Roshar,1,2010
+Baxil,23,El camino de los reyes,Baxil,1,false,60.69831858115094,El Archivo de las Tormentas,Roshar,1,2010
+Sheler,23,TOTAL,Sheler,3,true,,,,,
+Braize,23,TOTAL,Braize,3,true,,,,,
+Baxil,23,TOTAL,Baxil,1,false,,,,,
+Aliento,22,Brazales de duelo,Aliento,13,true,1.6303753873818803,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Esfera,22,Danzante del Filo,Esfera,11,true,5.305565249971537,,,,
+Yanagawn,22,El Ritmo de la Guerra,Yanagawn,3,true,33.889790900837276,El Archivo de las Tormentas,Roshar,4,2020
+Sazed,22,El metal perdido,Sazed,5,true,22.65162717798548,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Straff,22,El Imperio Final,Straff,3,true,33.889790900837276,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Mem,22,TOTAL,Mem,3,true,,,,,
+Wellen,21,El Heroe de las Eras,Wellen,2,false,40.86411313016158,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Braize,21,El Ritmo de la Guerra,Braize,3,true,32.34934585989013,El Archivo de las Tormentas,Roshar,4,2020
+Ruina,20,Aleacion de Ley,Ruina,8,true,11.192315758708453,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Mem,20,Juramentada,Mem,3,true,30.80890081894298,El Archivo de las Tormentas,Roshar,3,2017
+Intención,20,TOTAL,Intención,3,true,,,,,
+Shalash,20,TOTAL,Shalash,3,true,,,,,
+Chiri-Chiri,20,El Ritmo de la Guerra,Chiri-Chiri,2,false,38.91820298110626,El Archivo de las Tormentas,Roshar,4,2020
+Cosmere,19,El Ritmo de la Guerra,Cosmere,10,true,6.392972495803044,El Archivo de las Tormentas,Roshar,4,2020
+Sheler,19,Juramentada,Sheler,3,true,29.268455777995833,El Archivo de las Tormentas,Roshar,3,2017
+Identidad,19,TOTAL,Identidad,3,true,,,,,
+Lopen,18,El Ritmo de la Guerra,Lopen,5,true,18.533149509260845,El Archivo de las Tormentas,Roshar,4,2020
+Ellista,18,Juramentada,Ellista,1,false,47.50303193307465,El Archivo de las Tormentas,Roshar,3,2017
+Esfera,18,Brazales de duelo,Esfera,11,true,4.340917022703985,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Ellista,18,TOTAL,Ellista,1,false,,,,,
+Shalash,17,El Ritmo de la Guerra,Shalash,3,true,26.187565696101533,El Archivo de las Tormentas,Roshar,4,2020
+Gaz,17,El Ritmo de la Guerra,Gaz,4,true,21.296970464421257,El Archivo de las Tormentas,Roshar,4,2020
+Conservación,17,El metal perdido,Conservación,7,true,11.78350206951907,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Adonalsium,17,TOTAL,Adonalsium,5,true,,,,,
+Investidura,16,Brazales de duelo,Investidura,9,true,7.069324036464628,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Aliento,16,El metal perdido,Aliento,13,true,1.1857275544595494,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Perpendicularidad,16,Juramentada,Perpendicularidad,3,true,24.647120655154385,El Archivo de las Tormentas,Roshar,3,2017
+Intención,16,El Ritmo de la Guerra,Intención,3,true,24.647120655154385,El Archivo de las Tormentas,Roshar,4,2020
+Cosmere,15,Juramentada,Cosmere,10,true,5.0470835493181925,El Archivo de las Tormentas,Roshar,3,2017
+Marsh,14,El metal perdido,Marsh,5,true,14.414671840536213,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Cultivación,14,Juramentada,Cultivación,5,true,14.414671840536213,El Archivo de las Tormentas,Roshar,3,2017
+Lezian,14,El Ritmo de la Guerra,Lezian,1,false,36.94680261461362,El Archivo de las Tormentas,Roshar,4,2020
+Puuli,14,Juramentada,Puuli,1,false,36.94680261461362,El Archivo de las Tormentas,Roshar,3,2017
+Potenciación,14,El Ritmo de la Guerra,Potenciación,4,true,17.538681558935153,El Archivo de las Tormentas,Roshar,4,2020
+Identidad,14,Brazales de duelo,Identidad,3,true,21.566230573260086,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Roshar,14,Palabras radiantes,Roshar,8,true,7.834621031095917,El Archivo de las Tormentas,Roshar,2,2014
+Puuli,14,TOTAL,Puuli,1,false,,,,,
+Lezian,14,TOTAL,Lezian,1,false,,,,,
+Luz tormentosa,14,Danzante del Filo,Luz tormentosa,5,true,14.414671840536213,,,,
+Sangre Espectral,14,El metal perdido,Sangre Espectral,5,true,14.414671840536213,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Ashweather Cett,14,TOTAL,Ashweather Cett,2,false,,,,,
+Wellid,13,El metal perdido,Wellid,1,false,34.30774528499836,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Dominio,13,El Imperio Final,Dominio,5,true,13.385052423355056,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Eje,13,El Ritmo de la Guerra,Eje,9,true,5.74382577962751,El Archivo de las Tormentas,Roshar,4,2020
+Conservación,13,Sombras de identidad,Conservación,7,true,9.010913347279288,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Wellid,13,TOTAL,Wellid,1,false,,,,,
+Éter,13,TOTAL,Éter,3,true,,,,,
+Potenciación,12,Palabras radiantes,Potenciación,4,true,15.033155621944417,El Archivo de las Tormentas,Roshar,2,2014
+Cántico,12,Palabras radiantes,Cántico,6,true,10.167574324646445,El Archivo de las Tormentas,Roshar,2,2014
+Walin,12,El Imperio Final,Walin,1,false,31.6686879553831,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Nale,12,Juramentada,Nale,4,true,15.033155621944417,El Archivo de las Tormentas,Roshar,3,2017
+Sel,12,TOTAL,Sel,8,true,,,,,
+Walin,12,TOTAL,Walin,1,false,,,,,
+Aliento,11,El Pozo de la Ascension,Aliento,13,true,0.8151876936909401,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Aliento,11,Sombras de identidad,Aliento,13,true,0.8151876936909401,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Migs,11,Brazales de duelo,Migs,1,false,29.029630625767844,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Humano,11,El Ritmo de la Guerra,Humano,8,true,6.155773667289649,El Archivo de las Tormentas,Roshar,4,2020
+Cikatriz,11,El Ritmo de la Guerra,Cikatriz,5,true,11.32581358899274,El Archivo de las Tormentas,Roshar,4,2020
+Migs,11,TOTAL,Migs,1,false,,,,,
+Nale,10,Danzante del Filo,Nale,4,true,12.52762968495368,,,,
+Esfera,10,El aliento de los dioses,Esfera,11,true,2.4116205681688805,El aliento de los dioses,Nalthis,1,2009
+Astilla,10,Juramentada,Astilla,10,true,3.3647223662121286,El Archivo de las Tormentas,Roshar,3,2017
+Ruina,10,Brazales de duelo,Ruina,8,true,5.596157879354227,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Aliento,10,El Heroe de las Eras,Aliento,13,true,0.7410797215372183,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Astilla,10,El camino de los reyes,Astilla,10,true,3.3647223662121286,El Archivo de las Tormentas,Roshar,1,2010
+Astilla,10,Juramentada,Astilla,10,true,3.3647223662121286,El Archivo de las Tormentas,Roshar,3,2017
+Hesina,10,Juramentada,Hesina,3,true,15.40445040947149,El Archivo de las Tormentas,Roshar,3,2017
+Tanavast,10,TOTAL,Tanavast,4,true,,,,,
+Lasca,9,El camino de los reyes,Lasca,10,true,3.0282501295909157,El Archivo de las Tormentas,Roshar,1,2010
+Adonalsium,9,Juramentada,Adonalsium,5,true,9.266574754630422,El Archivo de las Tormentas,Roshar,3,2017
+Aliento,9,El Imperio Final,Aliento,13,true,0.6669717493834966,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Geranid,9,El camino de los reyes,Geranid,1,false,23.751515966537326,El Archivo de las Tormentas,Roshar,1,2010
+Potenciación,9,Juramentada,Potenciación,4,true,11.274866716458313,El Archivo de las Tormentas,Roshar,3,2017
+Eje,9,Sombras de identidad,Eje,9,true,3.976494770511353,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Cántico,9,El camino de los reyes,Cántico,6,true,7.625680743484833,El Archivo de las Tormentas,Roshar,1,2010
+Geranid,9,TOTAL,Geranid,1,false,,,,,
+Wellen,8,El Pozo de la Ascension,Wellen,2,false,15.567281192442506,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Vasher,8,Juramentada,Vasher,3,true,12.323560327577193,El Archivo de las Tormentas,Roshar,3,2017
+Esfera,8,Brazales de duelo,Esfera,11,true,1.9292964545351043,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Honor,8,El camino de los reyes,Honor,6,true,6.778382883097629,El Archivo de las Tormentas,Roshar,1,2010
+Dabbid,8,Juramentada,Dabbid,4,true,10.022103747962944,El Archivo de las Tormentas,Roshar,3,2017
+Astilla,7,Aleacion de Ley,Astilla,10,true,2.3553056563484898,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+TenSoon,7,Brazales de duelo,TenSoon,6,true,5.931085022710426,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Dockson,7,El Heroe de las Eras,Dockson,3,true,10.783115286630043,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Vin,7,El metal perdido,Vin,6,true,5.931085022710426,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Fen,7,Esquirla del Amanecer,Fen,3,true,10.783115286630043,,,,
+Aliento,7,Aleacion de Ley,Aliento,13,true,0.5187558050760528,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Ashweather Cett,7,El Pozo de la Ascension,Ashweather Cett,2,false,13.621371043387192,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Ashweather Cett,7,El Heroe de las Eras,Ashweather Cett,2,false,13.621371043387192,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Scadrial,6,Sombras de identidad,Scadrial,6,true,5.0837871623232225,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Scadrial,6,Brazales de duelo,Scadrial,6,true,5.0837871623232225,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Roshar,6,Danzante del Filo,Roshar,8,true,3.357694727612536,,,,
+Éter,6,El metal perdido,Éter,3,true,9.242670245682895,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Lasca,6,Juramentada,Lasca,10,true,2.018833419727277,El Archivo de las Tormentas,Roshar,3,2017
+Conexión,6,Brazales de duelo,Conexión,4,true,7.516577810972208,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Humano,6,El Ritmo de la Guerra,Humano,8,true,3.357694727612536,El Archivo de las Tormentas,Roshar,4,2020
+Odium,6,Palabras radiantes,Odium,5,true,6.177716503086948,El Archivo de las Tormentas,Roshar,2,2014
+Piedad,6,TOTAL,Piedad,2,false,,,,,
+Paige,6,TOTAL,Paige,3,true,,,,,
+Talenel,6,TOTAL,Talenel,3,true,,,,,
+Fantasma,5,El aliento de los dioses,Fantasma,5,true,5.148097085905791,El aliento de los dioses,Nalthis,1,2009
+Lasca,5,El camino de los reyes,Lasca,10,true,1.6823611831060643,El Archivo de las Tormentas,Roshar,1,2010
+Odium,5,El camino de los reyes,Odium,5,true,5.148097085905791,El Archivo de las Tormentas,Roshar,1,2010
+Esfera,5,El metal perdido,Esfera,11,true,1.2058102840844402,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Lopen,5,Esquirla del Amanecer,Lopen,5,true,5.148097085905791,,,,
+Humano,5,Juramentada,Humano,8,true,2.7980789396771133,El Archivo de las Tormentas,Roshar,3,2017
+Cosmere,5,Sombras de identidad,Cosmere,10,true,1.6823611831060643,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Cosmere,5,Brazales de duelo,Cosmere,10,true,1.6823611831060643,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Lasca,5,El Pozo de la Ascension,Lasca,10,true,1.6823611831060643,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Dor,5,El Ritmo de la Guerra,Dor,3,true,7.702225204735745,El Archivo de las Tormentas,Roshar,4,2020
+Eje,5,El Ritmo de la Guerra,Eje,9,true,2.209163761395196,El Archivo de las Tormentas,Roshar,4,2020
+Cosmere,5,El camino de los reyes,Cosmere,10,true,1.6823611831060643,El Archivo de las Tormentas,Roshar,1,2010
+Scadrial,5,Aleacion de Ley,Scadrial,6,true,4.236489301936018,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Dieno,5,El Ritmo de la Guerra,Dieno,1,false,13.195286648076292,El Archivo de las Tormentas,Roshar,4,2020
+Esfera,5,El aliento de los dioses,Esfera,11,true,1.2058102840844402,El aliento de los dioses,Nalthis,1,2009
+Éter,5,El metal perdido,Éter,3,true,7.702225204735745,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Investidura,5,Palabras radiantes,Investidura,9,true,2.209163761395196,El Archivo de las Tormentas,Roshar,2,2014
+Vin,5,Sombras de identidad,Vin,6,true,4.236489301936018,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Astilla,5,Brazales de duelo,Astilla,10,true,1.6823611831060643,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Lasca,5,El Heroe de las Eras,Lasca,10,true,1.6823611831060643,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Investidura,5,Juramentada,Investidura,9,true,2.209163761395196,El Archivo de las Tormentas,Roshar,3,2017
+Valentía,5,TOTAL,Valentía,2,false,,,,,
+Iniciación,5,TOTAL,Iniciación,3,true,,,,,
+Fortuna,5,TOTAL,Fortuna,4,true,,,,,
+Kenton,5,TOTAL,Kenton,2,false,,,,,
+Dieno,5,TOTAL,Dieno,1,false,,,,,
+Edwarn Ladrian,5,TOTAL,Edwarn Ladrian,3,true,,,,,
+Kenton,4,El Pozo de la Ascension,Kenton,2,false,7.783640596221253,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Valentía,4,El Ritmo de la Guerra,Valentía,2,false,7.783640596221253,El Archivo de las Tormentas,Roshar,4,2020
+Talenel,4,Juramentada,Talenel,3,true,6.161780163788596,El Archivo de las Tormentas,Roshar,3,2017
+Cántico,4,Palabras radiantes,Cántico,6,true,3.3891914415488147,El Archivo de las Tormentas,Roshar,2,2014
+Esfera,4,Sombras de identidad,Esfera,11,true,0.9646482272675522,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Investidura,4,Sombras de identidad,Investidura,9,true,1.767331009116157,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Aliento,4,El Ritmo de la Guerra,Aliento,13,true,0.29643188861488734,El Archivo de las Tormentas,Roshar,4,2020
+Kalak,4,El Ritmo de la Guerra,Kalak,4,true,5.011051873981472,El Archivo de las Tormentas,Roshar,4,2020
+Roshar,4,El metal perdido,Roshar,8,true,2.2384631517416906,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Prasanva,4,El metal perdido,Prasanva,1,false,10.556229318461034,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Dor,4,El metal perdido,Dor,3,true,6.161780163788596,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Conexión,4,Juramentada,Conexión,4,true,5.011051873981472,El Archivo de las Tormentas,Roshar,3,2017
+Cosmere,4,Aleacion de Ley,Cosmere,10,true,1.3458889464848514,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Astilla,4,El Pozo de la Ascension,Astilla,10,true,1.3458889464848514,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Tanavast,4,El Ritmo de la Guerra,Tanavast,4,true,5.011051873981472,El Archivo de las Tormentas,Roshar,4,2020
+Identidad,4,El metal perdido,Identidad,3,true,6.161780163788596,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Conexión,4,El metal perdido,Conexión,4,true,5.011051873981472,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Eje,4,Juramentada,Eje,9,true,1.767331009116157,El Archivo de las Tormentas,Roshar,3,2017
+Kalak,4,Juramentada,Kalak,4,true,5.011051873981472,El Archivo de las Tormentas,Roshar,3,2017
+Cosmere,4,Palabras radiantes,Cosmere,10,true,1.3458889464848514,El Archivo de las Tormentas,Roshar,2,2014
+Astilla,4,Sombras de identidad,Astilla,10,true,1.3458889464848514,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Ashyn,4,El Ritmo de la Guerra,Ashyn,1,false,10.556229318461034,El Archivo de las Tormentas,Roshar,4,2020
+Redespíritu,4,TOTAL,Redespíritu,3,true,,,,,
+Nalthis,4,TOTAL,Nalthis,2,false,,,,,
+Ashyn,4,TOTAL,Ashyn,1,false,,,,,
+Prasanva,4,TOTAL,Prasanva,1,false,,,,,
+Sangre Nocturna,4,El Ritmo de la Guerra,Sangre Nocturna,2,false,7.783640596221253,El Archivo de las Tormentas,Roshar,4,2020
+Cosmere,3,El Pozo de la Ascension,Cosmere,10,true,1.0094167098636384,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Scadrial,3,El Ritmo de la Guerra,Scadrial,6,true,2.5418935811616112,El Archivo de las Tormentas,Roshar,4,2020
+Sheler,3,El camino de los reyes,Sheler,3,true,4.621335122841447,El Archivo de las Tormentas,Roshar,1,2010
+Astilla,3,El metal perdido,Astilla,10,true,1.0094167098636384,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Cántico,3,Juramentada,Cántico,6,true,2.5418935811616112,El Archivo de las Tormentas,Roshar,3,2017
+Tanavast,3,Palabras radiantes,Tanavast,4,true,3.758288905486104,El Archivo de las Tormentas,Roshar,2,2014
+Sazed,3,Sombras de identidad,Sazed,5,true,3.088858251543474,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Investidura,3,Sombras de identidad,Investidura,9,true,1.3254982568371176,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Investidura,3,Brazales de duelo,Investidura,9,true,1.3254982568371176,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Lasca,3,Danzante del Filo,Lasca,10,true,1.0094167098636384,,,,
+Lasca,3,El Imperio Final,Lasca,10,true,1.0094167098636384,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Paige,3,El Ritmo de la Guerra,Paige,3,true,4.621335122841447,El Archivo de las Tormentas,Roshar,4,2020
+Investidura,3,El aliento de los dioses,Investidura,9,true,1.3254982568371176,El aliento de los dioses,Nalthis,1,2009
+Teft,3,Esquirla del Amanecer,Teft,5,true,3.088858251543474,,,,
+Piedad,3,Juramentada,Piedad,2,false,5.8377304471659395,El Archivo de las Tormentas,Roshar,3,2017
+Investidura,3,Aleacion de Ley,Investidura,9,true,1.3254982568371176,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Investidura,3,Aleacion de Ley,Investidura,9,true,1.3254982568371176,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Conservación,3,Brazales de duelo,Conservación,7,true,2.0794415416798357,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Cosmere,3,El Heroe de las Eras,Cosmere,10,true,1.0094167098636384,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Piedad,3,El Ritmo de la Guerra,Piedad,2,false,5.8377304471659395,El Archivo de las Tormentas,Roshar,4,2020
+Perpendicularidad,3,El metal perdido,Perpendicularidad,3,true,4.621335122841447,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Elend,3,El metal perdido,Elend,6,true,2.5418935811616112,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Vivenna,3,Juramentada,Vivenna,3,true,4.621335122841447,El Archivo de las Tormentas,Roshar,3,2017
+Kelsier,3,Sombras de identidad,Kelsier,7,true,2.0794415416798357,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Honor,3,Danzante del Filo,Honor,6,true,2.5418935811616112,,,,
+Iniciación,3,El Ritmo de la Guerra,Iniciación,3,true,4.621335122841447,El Archivo de las Tormentas,Roshar,4,2020
+Nalthis,3,El Ritmo de la Guerra,Nalthis,2,false,5.8377304471659395,El Archivo de las Tormentas,Roshar,4,2020
+Adonalsium,3,El Ritmo de la Guerra,Adonalsium,5,true,3.088858251543474,El Archivo de las Tormentas,Roshar,4,2020
+Cántico,3,El camino de los reyes,Cántico,6,true,2.5418935811616112,El Archivo de las Tormentas,Roshar,1,2010
+Intención,3,El metal perdido,Intención,3,true,4.621335122841447,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Adonalsium,3,El metal perdido,Adonalsium,5,true,3.088858251543474,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Capricho,3,TOTAL,Capricho,3,true,,,,,
+Miles Dagouter,3,Aleacion de Ley,Miles Dagouter,1,false,7.917171988845775,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Fragmentación,3,TOTAL,Fragmentación,3,true,,,,,
+Allrianne Cett,3,TOTAL,Allrianne Cett,2,false,,,,,
+Miles Dagouter,3,TOTAL,Miles Dagouter,1,false,,,,,
+Kelsier,2,Aleacion de Ley,Kelsier,7,true,1.3862943611198906,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Eje,2,Brazales de duelo,Eje,9,true,0.8836655045580785,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Roshar,2,Brazales de duelo,Roshar,8,true,1.1192315758708453,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Investidura,2,Danzante del Filo,Investidura,9,true,0.8836655045580785,,,,
+Hoid,2,El Heroe de las Eras,Hoid,9,true,0.8836655045580785,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Palona,2,El Ritmo de la Guerra,Palona,3,true,3.080890081894298,El Archivo de las Tormentas,Roshar,4,2020
+Investidura,2,El metal perdido,Investidura,9,true,0.8836655045580785,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Conservación,2,Aleacion de Ley,Conservación,7,true,1.3862943611198906,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Sel,2,Aleacion de Ley,Sel,8,true,1.1192315758708453,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Syl,2,Brazales de duelo,Syl,5,true,2.0592388343623163,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Aliento,2,Danzante del Filo,Aliento,13,true,0.14821594430744367,,,,
+Dominio,2,El Imperio Final,Dominio,5,true,2.0592388343623163,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Lasca,2,El Imperio Final,Lasca,10,true,0.6729444732424257,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Dominio,2,El Pozo de la Ascension,Dominio,5,true,2.0592388343623163,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Paige,2,El metal perdido,Paige,3,true,3.080890081894298,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Lasca,2,El metal perdido,Lasca,10,true,0.6729444732424257,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Luzdeplata,2,El metal perdido,Luzdeplata,1,false,5.278114659230517,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Eje,2,Esquirla del Amanecer,Eje,9,true,0.8836655045580785,,,,
+Hoid,2,Juramentada,Hoid,9,true,0.8836655045580785,El Archivo de las Tormentas,Roshar,3,2017
+Cántico,2,Juramentada,Cántico,6,true,1.6945957207744073,El Archivo de las Tormentas,Roshar,3,2017
+Roshar,2,Sombras de identidad,Roshar,8,true,1.1192315758708453,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Sel,2,Brazales de duelo,Sel,8,true,1.1192315758708453,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Ruina,2,El Ritmo de la Guerra,Ruina,8,true,1.1192315758708453,El Archivo de las Tormentas,Roshar,4,2020
+Astilla,2,El metal perdido,Astilla,10,true,0.6729444732424257,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Shalash,2,Juramentada,Shalash,3,true,3.080890081894298,El Archivo de las Tormentas,Roshar,3,2017
+Astilla,2,Palabras radiantes,Astilla,10,true,0.6729444732424257,El Archivo de las Tormentas,Roshar,2,2014
+Elend,2,Sombras de identidad,Elend,6,true,1.6945957207744073,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Kelsier,2,Brazales de duelo,Kelsier,7,true,1.3862943611198906,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Elend,2,Brazales de duelo,Elend,6,true,1.6945957207744073,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Vin,2,Brazales de duelo,Vin,6,true,1.6945957207744073,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Dominio,2,El Heroe de las Eras,Dominio,5,true,2.0592388343623163,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Cántico,2,El Ritmo de la Guerra,Cántico,6,true,1.6945957207744073,El Archivo de las Tormentas,Roshar,4,2020
+Ambición,2,El Ritmo de la Guerra,Ambición,1,false,5.278114659230517,El Archivo de las Tormentas,Roshar,4,2020
+Conservación,2,El Ritmo de la Guerra,Conservación,7,true,1.3862943611198906,El Archivo de las Tormentas,Roshar,4,2020
+Tanavast,2,El camino de los reyes,Tanavast,4,true,2.505525936990736,El Archivo de las Tormentas,Roshar,1,2010
+Eje,2,El metal perdido,Eje,9,true,0.8836655045580785,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Sel,2,El metal perdido,Sel,8,true,1.1192315758708453,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Scadrial,2,Juramentada,Scadrial,6,true,1.6945957207744073,El Archivo de las Tormentas,Roshar,3,2017
+Alomancia,2,Juramentada,Alomancia,9,true,0.8836655045580785,El Archivo de las Tormentas,Roshar,3,2017
+Fortuna,2,Juramentada,Fortuna,4,true,2.505525936990736,El Archivo de las Tormentas,Roshar,3,2017
+Yalb,2,Juramentada,Yalb,4,true,2.505525936990736,El Archivo de las Tormentas,Roshar,3,2017
+Dabbid,2,Palabras radiantes,Dabbid,4,true,2.505525936990736,El Archivo de las Tormentas,Roshar,2,2014
+Esfera,2,Sombras de identidad,Esfera,11,true,0.4823241136337761,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Sel,2,Sombras de identidad,Sel,8,true,1.1192315758708453,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Invención,2,TOTAL,Invención,2,false,,,,,
+Luzdeplata,2,TOTAL,Luzdeplata,1,false,,,,,
+Templeton Fig,2,Brazales de duelo,Templeton Fig,1,false,5.278114659230517,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Sangre Espectral,2,El camino de los reyes,Sangre Espectral,5,true,2.0592388343623163,El Archivo de las Tormentas,Roshar,1,2010
+Ambición,2,TOTAL,Ambición,1,false,,,,,
+Resonancia,2,TOTAL,Resonancia,2,false,,,,,
+Edwarn Ladrian,2,Aleacion de Ley,Edwarn Ladrian,3,true,3.080890081894298,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Allrianne Cett,2,El Pozo de la Ascension,Allrianne Cett,2,false,3.8918202981106265,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Philen Frandeu,2,El Pozo de la Ascension,Philen Frandeu,1,false,5.278114659230517,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Edwarn Ladrian,2,Sombras de identidad,Edwarn Ladrian,3,true,3.080890081894298,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Philen Frandeu,2,TOTAL,Philen Frandeu,1,false,,,,,
+Templeton Fig,2,TOTAL,Templeton Fig,1,false,,,,,
+Redespíritu,1,Aleacion de Ley,Redespíritu,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Dalinar,1,Danzante del Filo,Dalinar,5,true,1.0296194171811581,,,,
+Yanagawn,1,Danzante del Filo,Yanagawn,3,true,1.540445040947149,,,,
+Kenton,1,El Imperio Final,Kenton,2,false,1.9459101490553132,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+TenSoon,1,El Imperio Final,TenSoon,6,true,0.8472978603872037,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Esfera,1,El Imperio Final,Esfera,11,true,0.24116205681688804,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Esfera,1,El Pozo de la Ascension,Esfera,11,true,0.24116205681688804,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Fortuna,1,El Ritmo de la Guerra,Fortuna,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,4,2020
+Dotación,1,El Ritmo de la Guerra,Dotación,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,4,2020
+Resonancia,1,El Ritmo de la Guerra,Resonancia,2,false,1.9459101490553132,El Archivo de las Tormentas,Roshar,4,2020
+Fragmentación,1,El Ritmo de la Guerra,Fragmentación,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4,2020
+Alomancia,1,El Ritmo de la Guerra,Alomancia,9,true,0.44183275227903923,El Archivo de las Tormentas,Roshar,4,2020
+Eje,1,El aliento de los dioses,Eje,9,true,0.44183275227903923,El aliento de los dioses,Nalthis,1,2009
+Lasca,1,El aliento de los dioses,Lasca,10,true,0.33647223662121284,El aliento de los dioses,Nalthis,1,2009
+Shalash,1,El camino de los reyes,Shalash,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,1,2010
+Lhan,1,El camino de los reyes,Lhan,2,false,1.9459101490553132,El Archivo de las Tormentas,Roshar,1,2010
+Eje,1,El camino de los reyes,Eje,9,true,0.44183275227903923,El Archivo de las Tormentas,Roshar,1,2010
+Invención,1,El camino de los reyes,Invención,2,false,1.9459101490553132,El Archivo de las Tormentas,Roshar,1,2010
+Eshonai,1,El camino de los reyes,Eshonai,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,1,2010
+Perpendicularidad,1,El metal perdido,Perpendicularidad,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Fragmentación,1,El metal perdido,Fragmentación,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Redespíritu,1,El metal perdido,Redespíritu,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Intención,1,Juramentada,Intención,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,3,2017
+Iniciación,1,Juramentada,Iniciación,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,3,2017
+Obrodai,1,Juramentada,Obrodai,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,3,2017
+Axies,1,Juramentada,Axies,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,3,2017
+Eje,1,Juramentada,Eje,9,true,0.44183275227903923,El Archivo de las Tormentas,Roshar,3,2017
+Sel,1,Juramentada,Sel,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,3,2017
+Astilla,1,Palabras radiantes,Astilla,10,true,0.33647223662121284,El Archivo de las Tormentas,Roshar,2,2014
+Humano,1,Palabras radiantes,Humano,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,2,2014
+Braize,1,Palabras radiantes,Braize,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,2,2014
+Marsh,1,Sombras de identidad,Marsh,5,true,1.0296194171811581,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Astilla,1,Sombras de identidad,Astilla,10,true,0.33647223662121284,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Fortuna,1,Brazales de duelo,Fortuna,4,true,1.252762968495368,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Humano,1,El Heroe de las Eras,Humano,8,true,0.5596157879354227,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Capricho,1,El Pozo de la Ascension,Capricho,3,true,1.540445040947149,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Aliento,1,El Pozo de la Ascension,Aliento,13,true,0.07410797215372183,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Capricho,1,El Ritmo de la Guerra,Capricho,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4,2020
+Invención,1,El Ritmo de la Guerra,Invención,2,false,1.9459101490553132,El Archivo de las Tormentas,Roshar,4,2020
+Armonía,1,El Ritmo de la Guerra,Armonía,5,true,1.0296194171811581,El Archivo de las Tormentas,Roshar,4,2020
+Lasca,1,El Ritmo de la Guerra,Lasca,10,true,0.33647223662121284,El Archivo de las Tormentas,Roshar,4,2020
+Vivenna,1,El Ritmo de la Guerra,Vivenna,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4,2020
+Sheler,1,El Ritmo de la Guerra,Sheler,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4,2020
+Valentía,1,El aliento de los dioses,Valentía,2,false,1.9459101490553132,El aliento de los dioses,Nalthis,1,2009
+Fortuna,1,El camino de los reyes,Fortuna,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,1,2010
+Fragmentación,1,El camino de los reyes,Fragmentación,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,1,2010
+Odium,1,El metal perdido,Odium,5,true,1.0296194171811581,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Capricho,1,El metal perdido,Capricho,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Bjendal,1,El metal perdido,Bjendal,1,false,2.6390573296152584,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Lasca,1,El metal perdido,Lasca,10,true,0.33647223662121284,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Eje,1,El metal perdido,Eje,9,true,0.44183275227903923,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Humano,1,Juramentada,Humano,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,3,2017
+Identidad,1,Juramentada,Identidad,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,3,2017
+Tanavast,1,Juramentada,Tanavast,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,3,2017
+Éter,1,Juramentada,Éter,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,3,2017
+Braize,1,Juramentada,Braize,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,3,2017
+Humano,1,Palabras radiantes,Humano,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,2,2014
+Ruina,1,Palabras radiantes,Ruina,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,2,2014
+Cultivación,1,Palabras radiantes,Cultivación,5,true,1.0296194171811581,El Archivo de las Tormentas,Roshar,2,2014
+Iniciación,1,Palabras radiantes,Iniciación,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,2,2014
+Talenel,1,Palabras radiantes,Talenel,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,2,2014
+Adonalsium,1,Palabras radiantes,Adonalsium,5,true,1.0296194171811581,El Archivo de las Tormentas,Roshar,2,2014
+Sel,1,Palabras radiantes,Sel,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,2,2014
+Potenciación,1,Danzante del Filo,Potenciación,4,true,1.252762968495368,,,,
+Astilla,1,El Imperio Final,Astilla,10,true,0.33647223662121284,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Ruina,1,El Pozo de la Ascension,Ruina,8,true,0.5596157879354227,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Devoción,1,El Ritmo de la Guerra,Devoción,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,4,2020
+Hoid,1,El Ritmo de la Guerra,Hoid,9,true,0.44183275227903923,El Archivo de las Tormentas,Roshar,4,2020
+Treno,1,El Ritmo de la Guerra,Treno,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,4,2020
+Redespíritu,1,El Ritmo de la Guerra,Redespíritu,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4,2020
+Éter,1,El Ritmo de la Guerra,Éter,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4,2020
+Eje,1,El aliento de los dioses,Eje,9,true,0.44183275227903923,El aliento de los dioses,Nalthis,1,2009
+Sisirinah,1,El aliento de los dioses,Sisirinah,1,false,2.6390573296152584,El aliento de los dioses,Nalthis,1,2009
+Resonancia,1,El aliento de los dioses,Resonancia,2,false,1.9459101490553132,El aliento de los dioses,Nalthis,1,2009
+Sel,1,El camino de los reyes,Sel,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,1,2010
+Adonalsium,1,El camino de los reyes,Adonalsium,5,true,1.0296194171811581,El Archivo de las Tormentas,Roshar,1,2010
+Cultivación,1,El camino de los reyes,Cultivación,5,true,1.0296194171811581,El Archivo de las Tormentas,Roshar,1,2010
+Talenel,1,El camino de los reyes,Talenel,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,1,2010
+Cikatriz,1,El metal perdido,Cikatriz,5,true,1.0296194171811581,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Humano,1,El metal perdido,Humano,8,true,0.5596157879354227,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Cuna,1,El metal perdido,Cuna,1,false,2.6390573296152584,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Mythos,1,El metal perdido,Mythos,1,false,2.6390573296152584,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Redespíritu,1,El metal perdido,Redespíritu,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Paige,1,Juramentada,Paige,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,3,2017
+Lasca,1,Juramentada,Lasca,10,true,0.33647223662121284,El Archivo de las Tormentas,Roshar,3,2017
+Lirin,1,Palabras radiantes,Lirin,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,2,2014
+Hoid,1,Sombras de identidad,Hoid,9,true,0.44183275227903923,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Humano,1,Sombras de identidad,Humano,8,true,0.5596157879354227,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Fantasma,1,Sombras de identidad,Fantasma,5,true,1.0296194171811581,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Lasca,1,Aleacion de Ley,Lasca,10,true,0.33647223662121284,Nacidos de la Bruma (Era 2),Scadrial,1,2011
+Hoid,1,Brazales de duelo,Hoid,9,true,0.44183275227903923,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Szeth,1,Danzante del Filo,Szeth,5,true,1.0296194171811581,,,,
+Cultivación,1,Danzante del Filo,Cultivación,5,true,1.0296194171811581,,,,
+Axies,1,Danzante del Filo,Axies,4,true,1.252762968495368,,,,
+Eje,1,El Heroe de las Eras,Eje,9,true,0.44183275227903923,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Lasca,1,El Heroe de las Eras,Lasca,10,true,0.33647223662121284,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Cántico,1,El Imperio Final,Cántico,6,true,0.8472978603872037,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Humano,1,El Pozo de la Ascension,Humano,8,true,0.5596157879354227,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Conservación,1,El Pozo de la Ascension,Conservación,7,true,0.6931471805599453,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Cántico,1,El Pozo de la Ascension,Cántico,6,true,0.8472978603872037,Nacidos de la Bruma (Era 1),Scadrial,2,2007
+Mem,1,El Ritmo de la Guerra,Mem,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4,2020
+Dominio,1,El Ritmo de la Guerra,Dominio,5,true,1.0296194171811581,El Archivo de las Tormentas,Roshar,4,2020
+Ruina,1,El Ritmo de la Guerra,Ruina,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,4,2020
+Vasher,1,El Ritmo de la Guerra,Vasher,3,true,1.540445040947149,El Archivo de las Tormentas,Roshar,4,2020
+Sel,1,El Ritmo de la Guerra,Sel,8,true,0.5596157879354227,El Archivo de las Tormentas,Roshar,4,2020
+Yolen,1,El Ritmo de la Guerra,Yolen,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,4,2020
+Humano,1,El aliento de los dioses,Humano,8,true,0.5596157879354227,El aliento de los dioses,Nalthis,1,2009
+Astilla,1,El aliento de los dioses,Astilla,10,true,0.33647223662121284,El aliento de los dioses,Nalthis,1,2009
+Honor,1,El metal perdido,Honor,6,true,0.8472978603872037,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Mem,1,El metal perdido,Mem,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Axies,1,El metal perdido,Axies,4,true,1.252762968495368,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Nalthis,1,El metal perdido,Nalthis,2,false,1.9459101490553132,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Dominio,1,El metal perdido,Dominio,5,true,1.0296194171811581,Nacidos de la Bruma (Era 2),Scadrial,4,2022
+Kalak,1,Palabras radiantes,Kalak,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,2,2014
+Nale,1,Palabras radiantes,Nale,4,true,1.252762968495368,El Archivo de las Tormentas,Roshar,2,2014
+Treno,1,TOTAL,Treno,1,false,,,,,
+Bjendal,1,TOTAL,Bjendal,1,false,,,,,
+Yolen,1,TOTAL,Yolen,1,false,,,,,
+Sisirinah,1,TOTAL,Sisirinah,1,false,,,,,
+Teoría Realmática,1,El Ritmo de la Guerra,Teoría Realmática,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,4,2020
+Themos Tresting,1,El Imperio Final,Themos Tresting,1,false,2.6390573296152584,Nacidos de la Bruma (Era 1),Scadrial,1,2006
+Esquirla del Amanecer,1,El camino de los reyes,Esquirla del Amanecer,1,false,2.6390573296152584,El Archivo de las Tormentas,Roshar,1,2010
+Devoción,1,TOTAL,Devoción,1,false,,,,,
+Mythos,1,TOTAL,Mythos,1,false,,,,,
+Dotación,1,TOTAL,Dotación,1,false,,,,,
+Obrodai,1,TOTAL,Obrodai,1,false,,,,,
+Cuna,1,TOTAL,Cuna,1,false,,,,,
+Edwarn Ladrian,1,Brazales de duelo,Edwarn Ladrian,3,true,1.540445040947149,Nacidos de la Bruma (Era 2),Scadrial,3,2016
+Edgard Ladrian,1,Sombras de identidad,Edgard Ladrian,1,false,2.6390573296152584,Nacidos de la Bruma (Era 2),Scadrial,2,2015
+Allrianne Cett,1,El Heroe de las Eras,Allrianne Cett,2,false,1.9459101490553132,Nacidos de la Bruma (Era 1),Scadrial,3,2008
+Edgard Ladrian,1,TOTAL,Edgard Ladrian,1,false,,,,,
+Teoría Realmática,1,TOTAL,Teoría Realmática,1,false,,,,,
+Themos Tresting,1,TOTAL,Themos Tresting,1,false,,,,,
+Esquirla del Amanecer,1,TOTAL,Esquirla del Amanecer,1,false,,,,,

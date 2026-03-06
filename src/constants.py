@@ -350,10 +350,15 @@ STOP_WORDS_EN = {
     "your",
 }
 
-
-
 SANDERSON_TERMS = {
-        "Adin": "Personaje",
+    "Siri": "Personaje",
+    "Denth": "Personaje",
+    "Susebron": "Personaje",
+    "Llarimar": "Personaje",
+    "Dedos Azules": "Personaje",
+    "Encendedora": "Personaje",
+    "Sangre Nocturna": "Personaje",
+    "Adin": "Personaje",
     "Adolin": "Personaje",
     "Alanik": "Personaje",
     "Alcatraz Smedry": "Personaje",
@@ -572,7 +577,6 @@ SANDERSON_TERMS = {
     "Sangre Espectral": "Concepto",
     "Luzdeplata": "Concepto",
 }
-
 
 # Metadata de libros: clave = nombre del fichero .txt sin extensión en data/raw
 # (debe coincidir exactamente con el nombre usado en el CSV como Libro_Origen).

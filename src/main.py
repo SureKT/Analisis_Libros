@@ -66,6 +66,7 @@ def _build_sanderson_term_rules() -> tuple[
         canonical_term = str(raw_term)
         cat = str(category)
         requires_cap = cat.lower() == "personaje"
+        requires_cap = cat.lower() == "personaje"
 
         tokens = [t for t in _normalize_to_tokens(raw_term) if t not in STOP_WORDS_ALL]
         if not tokens:
